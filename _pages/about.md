@@ -4,7 +4,6 @@ title: "About Me"
 ---
 
 backend \| architect \| coach
-
 ```
 
 engineering {
@@ -37,9 +36,9 @@ ci/cd = { buildkite, spinaker, jenkins, 'github actions' }
 softskills = { 
     leadership, 
     mentoring,
-    coaching, 
-    thinking, 
-    investigating, 
+    coaching,
+    thinking,
+    investigating,
     delivering
 }
 ```
