@@ -1,10 +1,23 @@
 title: The corner in the middle
-email:
+subtitle: A blog about technology, games and life.
+name: Juan Ara
+email: juan@cornerinthemiddle.com
+url: https://www.cornerinthemiddle.com
 description: >- # this means to ignore newlines until next property
-A blog about technology, gaming and lifehacks.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+    A blog about technology, gaming and lifehacks.
+    Posts about backend, architecture, agile and coaching but also
+    about gaming and general stuff happening around my life.
+repository: TarodBOFH/tarodbofh.github.io
+
+teaser: "/assets/images/corner-icon-500x300.png"
+logo: "/assets/images/corner-icon-88x88.png"
+masthead_title: "Corner in the middle"
+
+breadcrumbs: true # beta
+
+twitter_username: TarodBOFH
+github_username: TarodBOFH
+minimal_mistakes_skin: dark #
 search: true
 
 # Build settings
@@ -16,13 +29,15 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Europe/Madrid # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "www-cornerinthemiddle-com"
+
 include:
   - _pages
 
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
@@ -30,6 +45,8 @@ include:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+    - .idea/
 
 # Plugins (previously gems:)
 plugins:
@@ -41,34 +58,43 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Juan Francisco Ara Monzón"
-  avatar : "/assets/images/bio-photo.jpg"
+  name   : "Juan Ara"
+  avatar : "/assets/images/juan-ara.png"
   bio    : "Hi there! I'm a senior software engineer, back-end technical lead and architect in Madrid, working at lastminute.com. Loving gaming and motorbikes. Writing software since I was 9. Since 1987 ;-)"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.cornerinthemiddle.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/juanara"
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://medium.com/@juan_ara"
+    - label: "dev.to"
+      icon: "fab fa-fw fa-dev"
+      url: "https://dev.to/tarodbofh"
 
 footer:
   links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.cornerinthemiddle.com/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/TarodBOFH"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/TarodBOFH"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/juanara"
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://medium.com/@juan_ara"
+    - label: "dev.to"
+      icon: "fab fa-fw fa-dev"
+      url: "https://dev.to/tarodbofh"
 
 defaults:
   # _posts
