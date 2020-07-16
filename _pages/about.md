@@ -1,6 +1,7 @@
 ---
 permalink: /about/
 title: "About Me"
+classes: wide
 ---
 
 backend \| architect \| coach
