@@ -1,1 +1,8 @@
+# IntelliJ IDEA project files
 .idea/**
+
+# jekyll
+_site
+.sass-cache
+.jekyll-metadata
+Gemfile.lock
