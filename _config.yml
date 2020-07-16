@@ -30,9 +30,9 @@ paginate_path: /page:num/
 timezone: Europe/Madrid # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 comments:
-  provider: "disqus"
+  provider: disqus
   disqus:
-    shortname: "www-cornerinthemiddle-com"
+    shortname: www-cornerinthemiddle-com
 
 include:
   - _pages
