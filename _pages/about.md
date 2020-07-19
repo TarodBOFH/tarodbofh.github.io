@@ -1,10 +1,12 @@
 ---
 permalink: /about/
 title: "About Me"
-classes: wide
+toc: true
+toc_sticky: true
 ---
+# TLDR;>
 
-backend \| architect \| coach
+## backend \| architect \| coach
 ```
 
 engineering {
@@ -44,7 +46,7 @@ softskills = {
 }
 ```
 
-Learning \| Trying
+## Learning \| Trying
 ```
 lua
 k8s
