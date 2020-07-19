@@ -18,11 +18,13 @@ medium (wink, wink :wink: ) to publish it.
 
 So let's start about myself.
 
-I was born in the end of the 70's in Spain. I think myself as a millennial (eat that!) since I am no generation-X so I 
-must be generation-Y. I am a software engineer, and I have been since I was a teenager (actually, a little bit sooner 
-than that). 
+I was born in the end of the 70's in Spain. I think myself as a millennial (eat that!) since I am no generation-X, so I 
+must be generation-Y.
+
+I am a software engineer, and I have been since I was a teenager (actually, sooner than that).
+
 My first computer was an [Amstrad CPC 464](https://en.wikipedia.org/wiki/Amstrad_CPC#CPC464) with an amazing and insane 
-amount of ~~RAM~~ memory: 64KB.
+amount of ~~RAM~~ memory: 64 KB.
 
 <figure>
     <img src="/assets/images/blog/amstrad-cpc.jpeg" alt="This was a computer back in the 80's">
@@ -43,9 +45,9 @@ screens to manage my book collection (that was plain basic, no kidding). My frus
 way to persistent store my information anywhere. I had to type everything (even the program) every time I wanted to 
 *store* some book notes.
 
-That is how it started. Now I am a senior software engineer and I work mainly on back-end micro-services. I am learning 
-`kotlin` and I'm loving it. A few years ago I left software engineering because I was bored and I could not find 
-*state of the art* companies in Spain but I always loved technical challenges so I switched back to engineering working 
+That is how it started. Now I am a senior software engineer, and I work mainly on back-end micro-services. I am learning 
+`kotlin` and I'm loving it. A few years ago I left software engineering because I was bored, and I could not find 
+*state of the art* companies in Spain, but I always loved technical challenges, so I switched back to engineering working 
 with SF start-ups. It is really a pleasure working with the *valley* mindset and all the tools out there to improve
  our productivity.
 
