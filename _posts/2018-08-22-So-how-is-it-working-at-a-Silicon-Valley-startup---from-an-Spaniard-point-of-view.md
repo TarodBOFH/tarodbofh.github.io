@@ -93,7 +93,7 @@ processes).
 
 <figure>
   <img 
-    src="/assets/images/So-how-is-it-working-at-a-Silicon-Valley-startup---from-an-Spaniard-point-of-view/1*YR8tJ6l9Qi4yShMhJIQWBQ.png" 
+    src="/assets/images/posts/So-how-is-it-working-at-a-Silicon-Valley-startup---from-an-Spaniard-point-of-view/standing-desk.png" 
     alt="Image of a standing desk with an ultrawide monitor"/>
   <figcaption>I worked here for a month and I loved it!</figcaption>
 </figure>
@@ -195,3 +195,5 @@ one week there (SF) is worth a month away.
 How productive we could be if only the managers of the big software factories in Spain opened their minds and adopted a 
 *learning posture* instead of that demigod behavior they have sometimes 
 (disclaimer: not everyone, specially if you are reading this there is a high chance you are the exception, my friend).
+
+_Originally published in_ [<i class="fab fa-fw fa-medium"></i>Medium](https://medium.com/@juan_ara/so-how-is-it-working-at-an-american-startup-from-an-spaniard-point-of-view-a04260b517b0)

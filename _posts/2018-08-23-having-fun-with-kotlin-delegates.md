@@ -80,3 +80,5 @@ While in the past minimizing data packets was a gain, I don’t think it is anym
 databases are properly normalized and no redundant information sits there. 
 Of course if you are using a document-based database you will probably have other issues and needs but surely you’ll 
 have learnt something from this.
+
+_Originally published in_ [<i class="fab fa-fw fa-medium"></i>Medium](https://medium.com/@juan_ara/having-fun-with-kotlin-delegates-5c819007b343)

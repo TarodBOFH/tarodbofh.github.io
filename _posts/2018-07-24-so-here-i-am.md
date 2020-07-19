@@ -27,7 +27,7 @@ My first computer was an [Amstrad CPC 464](https://en.wikipedia.org/wiki/Amstrad
 amount of ~~RAM~~ memory: 64 KB.
 
 <figure>
-    <img src="/assets/images/blog/amstrad-cpc.jpeg" alt="This was a computer back in the 80's">
+    <img src="/assets/images/posts/so-here-i-am/amstrad-cpc.jpeg" alt="This was a computer back in the 80's">
     <figcaption>This was a computer back in the 80's</figcaption>
 </figure>
 
@@ -60,4 +60,4 @@ Cheers to all,
 
 Ping me if you come to Madrid and want to share a beer over a nice conversation.
 
-_Originally published in [Medium](https://medium.com/@juan_ara/about-myself-35a9745cc4fa)_
+_Originally published in_ [<i class="fab fa-fw fa-medium"></i>Medium](https://medium.com/@juan_ara/about-myself-35a9745cc4fa)
