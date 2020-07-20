@@ -138,6 +138,10 @@ Header (`_includes/head/custom.html`) contains favicon based on the above genera
 
 Social media links are added on the footer and author via `_config.yml`
 
+## Comments and reactions
+
+Post comments are provided by [Disqus](https://disqus.com/) using default Minimal Mistakes integration (see `_config.yml`).
+
 # Medium and dev.to integrations
 
 Medium and dev.to integrations are planned via [GitHib Actions](https://github.com/features/actions)
