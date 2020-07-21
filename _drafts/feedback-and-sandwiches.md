@@ -13,8 +13,8 @@ classes: wide
 ---
 
 Somebody shared yesterday on our corporate workplace [Basecamp's "How we communicate"](https://basecamp.com/guides/how-we-communicate)
-guide. At the time of this post it already is [half a year old](https://twitter.com/jasonfried/status/1213198779517681670)
-and I had already seen it a couple of times during quarantine. However, this time something caught my attention, 
+guide. At the time of this post, it is [half a year old](https://twitter.com/jasonfried/status/1213198779517681670)
+and I have seen it a couple of times during quarantine. However, this time something caught my attention, 
 something that made me think about writing this entry.
 
 > Great news delivered on the heels of bad news makes both bits worse. 
@@ -35,18 +35,17 @@ once I knew that I was able to identify _the sandwich_ early on during conversat
 > Hey Juan! Can I say something personal to you? I've always appreciated you and your family!
 > You need to lose some weight because your health is important, and it's a wonderful daughter you need to take care of!
 
-That happened (not literally!) during lunch with an american friend that came visiting a year ago (I'm improving my 
-health, I promise :muscle: ). I saw the pattern immediately and let my friend know that I got him in the _sandwich_ (we 
-always laugh at or cultural behaviors) and he confirmed that it was built on his DNA.
+That happened (not literally but almost!) during lunch with an american friend that came visiting a year ago (I'm 
+improving my health, I promise :muscle: ). 
+I saw the pattern immediately and let my friend know that I got him in the _sandwich_ (we always laugh at or cultural 
+behaviors) and he confirmed that it was built on his DNA.
 
 What's funny about that is, as Basecamp code says, that everything is wrong on that technique. The first load of bread 
 seems artificial, and the _wonderful daughter_ seems to be there just to change the mood, burying the important thing, 
 that is to lose weight or get healthier.
 
-One of the feedback sessions that is working pretty well for me and my coworkers starts highlighting the objectives of
-the session:
-
 ### Feedback Canvas
+
 >When giving feedback, you should be constructive, specific and always assume good intent. 
 >That goes in both directions: when you receive feedback, assume that the person who is giving you the feedback is 
 >going beyond his comfort zone and is pro-actively trying to help you to grow further. 
