@@ -26,12 +26,12 @@ To use it, just run:
 
 Bash:
 ```bash
-docker build -t jekyll-dev . && docker run --rm -p 4000:4000 -v $(pwd):/srv/jekyll jekyll-dev jekyll serve
+docker build -t jekyll-dev . && docker run --rm -p 4000:4000 -v $(pwd):/srv/jekyll jekyll-dev jekyll serve --drafts
 ```
 
 PowerShell:
 ```powershell
-docker build -t jekyll-dev . && docker run --rm -p 4000:4000 -v ${PWD}:/srv/jekyll jekyll-dev jekyll serve
+docker build -t jekyll-dev . && docker run --rm -p 4000:4000 -v ${PWD}:/srv/jekyll jekyll-dev jekyll serve --drafts
 ```
 
 Then navigate to `localhost:4000` and you should be able to see the static website.
