@@ -8,6 +8,9 @@ tags:
   - personal
   - intro
 classes: wide
+header:
+    teaser:        /assets/images/posts/so-here-i-am/szabo-viktor-vE1As8YoJRs-unsplash-rotated.webp
+    overlay_image: /assets/images/posts/so-here-i-am/szabo-viktor-vE1As8YoJRs-unsplash-rotated.webp
 ---
 
 Hi there! :wave:

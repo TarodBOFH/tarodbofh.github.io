@@ -5,7 +5,7 @@ title: >-
 date: 2018-08-22
 excerpt: >-
   I already had been in the loop a couple of times. So when the headhunter told me it was a long and exhausting process
-  I was not surprised. A month later I was flying to San Francisco to start my new adventure
+  I was not surprised. A month later I was flying to San Francisco to start my new adventure.
 categories:
   - Personal
   - Software Engineering
@@ -14,8 +14,13 @@ tags:
   - intro
   - startups
   - engineering
-toc: true
+toc: false
 toc_sticky: true
+header:
+    teaser:        /assets/images/posts/So-how-is-it-working-at-a-Silicon-Valley-startup/hardik-pandya--Ey_0PMz900-unsplash.jpg
+    overlay_image: /assets/images/posts/So-how-is-it-working-at-a-Silicon-Valley-startup/jordi-vich-navarro-hmL0CzO9XMY-unsplash.jpg
+    overlay_filter: 0.5
+classes: wide
 ---
 
 # The Loop
@@ -62,6 +67,9 @@ your LinkedIn employees profiles so make us a favor and put a *team.html* page i
 So there I was, a month and a half later, in a flight from Madrid to San Francisco that got redirected to Oslo, arriving
 more than 24h late to my first day in the valley.
 
+<img src="/assets/images/posts/So-how-is-it-working-at-a-Silicon-Valley-startup/standing-desk-300x400.webp" 
+     alt="Image of a standing desk with an ultrawide monitor" />{: .align-right}
+
 One thing that gladly surprised me was that **there was indeed an on-boarding process**, in this case a github repo in 
 form of a wiki that was being moved to confluence and being updated constantly by every new engineer joining the 
 company. I really appreciated that. One can check the history and see how it evolved or how things were done in the 
@@ -90,13 +98,6 @@ Here, in Spain, even companies struggle to use their code repositories as a serv
 Why if an old desktop with a couple of hard disks can serve that purpose... ? (seriously, even today, I find companies 
 hosting their own solutions **without** a proper sysadmin or devops dedicated to their repos or, if any, their CI 
 processes).
-
-<figure>
-  <img 
-    src="/assets/images/posts/So-how-is-it-working-at-a-Silicon-Valley-startup---from-an-Spaniard-point-of-view/standing-desk.png" 
-    alt="Image of a standing desk with an ultrawide monitor"/>
-  <figcaption>I worked here for a month and I loved it!</figcaption>
-</figure>
 
 ## Agile
 

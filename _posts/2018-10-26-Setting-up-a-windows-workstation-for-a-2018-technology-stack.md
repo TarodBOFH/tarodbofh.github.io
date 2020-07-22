@@ -5,7 +5,7 @@ date: 2018-10-26
 excerpt: >-
   I failed to adapt using a Mac laptop. +20 years of typing on a standard PC keyboard was too much, so I decided to try
   to create a full work station on a Windows laptop similarly to how my work Mac was onboarded: command line brew like 
-  tool and automate my .dotfiles (or their window equivalent).
+  tool and automate my .dotfiles (or their Windows equivalent).
 toc: true
 toc_sticky: true
 categories:
@@ -17,6 +17,9 @@ tags:
   - tips
   - automation
   - workstation
+header:
+    teaser:        /assets/images/posts/Setting-up-a-windows-workstation-for-a-2018-technology-stack/liam-truong-U0GaXKQa8vY-unsplash.jpg
+    overlay_image: /assets/images/posts/Setting-up-a-windows-workstation-for-a-2018-technology-stack/liam-truong-U0GaXKQa8vY-unsplash.jpg
 ---
 **update 2020:** Although the vast majority of stuff listed here still works on 2020, there is now [WinGet](https://www.theverge.com/2020/5/20/21264739/microsoft-windows-package-manager-preview-download)
 that I've not personally worked with yet.
@@ -143,14 +146,11 @@ I can install them with a Chocolatey script and either pin `choco pin …` them
 
 # One script to rule them all
 
+<img src="/assets/images/posts/Setting-up-a-windows-workstation-for-a-2018-technology-stack/the-one-ring-150x130.webp"
+     alt="Photo of The One ring from the lord of the rings"/>{: .align-left }
+     
 With all the improvements that Microsoft has made over the years to PowerShell I thought it was possible to pack a 
 script to set up my environment.
-
-<figure>
-    <img src="/assets/images/posts/Setting-up-a-windows-workstation-for-a-2018-technology-stack/the-one-ring.png"
-         alt="Photo of The One ring from the lord of the rings"/>
-    <figcaption>One script to rule them all...</figcaption>
-</figure>
 
 I started with the basics, installing scoop and Chocolatey and documenting everything on a document, so I could 
 potentially create _The One_ Script.
