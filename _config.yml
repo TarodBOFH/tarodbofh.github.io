@@ -22,7 +22,7 @@ search: true
 
 # Analytics
 analytics:
-  provider: "google"
+  provider: "google-gtag"
   google:
     tracking_id: UA-173261536-1
 
