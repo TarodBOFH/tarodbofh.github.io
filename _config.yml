@@ -20,6 +20,12 @@ github_username: TarodBOFH
 minimal_mistakes_skin: dark #
 search: true
 
+# Analytics
+analytics:
+  provider: "google"
+  google:
+    tracking_id: UA-173261536-1
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
