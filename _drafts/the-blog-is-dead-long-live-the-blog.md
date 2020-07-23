@@ -19,7 +19,7 @@ tags:
   - github pages
 header:
     teaser:        /assets/images/posts/the-blog-is-dead-long-live-the-blog/jekyll-logo-2x.png
-    overlay_image: /assets/images/posts/the-blog-is-dead-long-live-the-blog/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg
+    overlay_image: /assets/images/posts/the-blog-is-dead-long-live-the-blog/patrick-tomasso-Oaqk7qqNh_c-unsplash-xxhdpi.webp
     overlay_filter: 0.5
 classes: wide
 ---
