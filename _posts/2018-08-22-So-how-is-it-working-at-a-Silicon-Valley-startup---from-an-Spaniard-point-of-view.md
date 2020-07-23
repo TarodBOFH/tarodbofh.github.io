@@ -17,8 +17,8 @@ tags:
 toc: false
 toc_sticky: true
 header:
-    teaser:        /assets/images/posts/So-how-is-it-working-at-a-Silicon-Valley-startup/hardik-pandya--Ey_0PMz900-unsplash.jpg
-    overlay_image: /assets/images/posts/So-how-is-it-working-at-a-Silicon-Valley-startup/jordi-vich-navarro-hmL0CzO9XMY-unsplash.jpg
+    teaser:        /assets/images/posts/So-how-is-it-working-at-a-Silicon-Valley-startup/hardik-pandya--Ey_0PMz900-unsplash-hdpi.webp
+    overlay_image: /assets/images/posts/So-how-is-it-working-at-a-Silicon-Valley-startup/jordi-vich-navarro-hmL0CzO9XMY-unsplash-xxhdpi.webp
     overlay_filter: 0.5
 classes: wide
 ---

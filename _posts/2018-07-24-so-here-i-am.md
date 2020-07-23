@@ -9,8 +9,8 @@ tags:
   - intro
 classes: wide
 header:
-    teaser:        /assets/images/posts/so-here-i-am/szabo-viktor-vE1As8YoJRs-unsplash-rotated.webp
-    overlay_image: /assets/images/posts/so-here-i-am/szabo-viktor-vE1As8YoJRs-unsplash-rotated.webp
+    teaser:        /assets/images/posts/so-here-i-am/szabo-viktor-vE1As8YoJRs-unsplash-rotated-hdpi.webp
+    overlay_image: /assets/images/posts/so-here-i-am/szabo-viktor-vE1As8YoJRs-unsplash-rotated-xxhdpi.webp
 ---
 
 Hi there! :wave:

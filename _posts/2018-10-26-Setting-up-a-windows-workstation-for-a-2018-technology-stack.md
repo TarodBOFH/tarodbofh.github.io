@@ -17,8 +17,8 @@ tags:
   - automation
   - workstation
 header:
-    teaser:        /assets/images/posts/Setting-up-a-windows-workstation-for-a-2018-technology-stack/liam-truong-U0GaXKQa8vY-unsplash.jpg
-    overlay_image: /assets/images/posts/Setting-up-a-windows-workstation-for-a-2018-technology-stack/liam-truong-U0GaXKQa8vY-unsplash.jpg
+    teaser:        /assets/images/posts/Setting-up-a-windows-workstation-for-a-2018-technology-stack/liam-truong-U0GaXKQa8vY-unsplash-hdpi.webp
+    overlay_image: /assets/images/posts/Setting-up-a-windows-workstation-for-a-2018-technology-stack/liam-truong-U0GaXKQa8vY-unsplash-xxhdpi.webp
 ---
 **update 2020:** Although the vast majority of stuff listed here still works on 2020, there is now [WinGet](https://www.theverge.com/2020/5/20/21264739/microsoft-windows-package-manager-preview-download)
 that I've not personally worked with yet.
