@@ -10,7 +10,6 @@ toc: true
 toc_sticky: true
 categories:
   - Software Engineering
-  - Windows
 tags:
   - PowerShell
   - engineering
