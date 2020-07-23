@@ -1,14 +1,21 @@
 ---
 title: Feedback and Sandwiches
 date: 2020-07-21
-excerpt: Bio and introduction. This is me!
+excerpt: >-
+    I saw something at [Basecamp's "How we communicate"](https://basecamp.com/guides/how-we-communicate) guide that
+    made me think about the classic sandwich when delivering bad news/feedback, so I decided to share a feedback canvas
+    that is working for me when trying to help teams to adopt a constructive feedback culture.
 categories:
   - Personal
-  - Mindset
   - Coaching
 tags:
   - feedback
   - culture
+  - mindset
+header:
+    teaser:        /assets/images/posts/feedback-and-sandwiches/suea-sivilaisith-foHj73zCV3Y-unsplash.jpg
+    overlay_image: /assets/images/posts/feedback-and-sandwiches/suea-sivilaisith-foHj73zCV3Y-unsplash.jpg
+    overlay_filter: 0.5
 classes: wide
 ---
 
