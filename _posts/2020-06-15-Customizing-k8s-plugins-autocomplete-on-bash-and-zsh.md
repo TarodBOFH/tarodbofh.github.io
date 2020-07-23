@@ -19,6 +19,7 @@ header:
     teaser:        /assets/images/posts/customizing-k8s-plugins-autocomplete-on-bash-and-zsh/guillaume-bolduc-uBe2mknURG4-unsplash.jpg
     overlay_image: /assets/images/posts/customizing-k8s-plugins-autocomplete-on-bash-and-zsh/guillaume-bolduc-uBe2mknURG4-unsplash.jpg
     overlay_filter: 0.75
+classes: wide
 ---
 
 I was procrastinating setting up my new mac for too much time.
