@@ -11,7 +11,8 @@ header:
     teaser:        /assets/images/posts/Refactoring-the-coding-interview/steve-halama-NPKk_3ZK2DY-unsplash-hdpi.webp
     overlay_image: /assets/images/posts/Refactoring-the-coding-interview/steve-halama-NPKk_3ZK2DY-unsplash-xxxhdpi.webp
     overlay_filter: 0.5
-classes: wide
+toc: true
+toc_sticky: true
 categories:
   - Software Engineering
   - Coaching
@@ -263,3 +264,5 @@ As a close [friend](https://www.linkedin.com/in/osangenis/) once said to me:
 >
 
 And being happy at work makes the difference between stressed and ownership.
+
+_Originally published in_ [<i class="fab fa-fw fa-medium"></i>Medium](https://medium.com/@juan_ara/refactoring-the-coding-interview-32515dae5bca)
