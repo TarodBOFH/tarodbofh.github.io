@@ -19,6 +19,7 @@ twitter_username: TarodBOFH
 github_username: TarodBOFH
 minimal_mistakes_skin: dark #
 search: true
+search_full_content: true
 
 # Analytics
 analytics:
