@@ -17,8 +17,8 @@ tags:
 toc: false
 toc_sticky: true
 header:
-    teaser:        /assets/images/posts/So-how-is-it-working-at-a-Silicon-Valley-startup/hardik-pandya--Ey_0PMz900-unsplash-hdpi.webp
-    overlay_image: /assets/images/posts/So-how-is-it-working-at-a-Silicon-Valley-startup/jordi-vich-navarro-hmL0CzO9XMY-unsplash-xxhdpi.webp
+    teaser:        /assets/images/posts/So-how-is-it-working-at-a-Silicon-Valley-startup/hardik-pandya--Ey_0PMz900-unsplash-hdpi.jpg
+    overlay_image: /assets/images/posts/So-how-is-it-working-at-a-Silicon-Valley-startup/jordi-vich-navarro-hmL0CzO9XMY-unsplash-xxhdpi.jpg
     overlay_filter: 0.5
 classes: wide
 ---
@@ -67,7 +67,7 @@ your LinkedIn employees profiles so make us a favor and put a *team.html* page i
 So there I was, a month and a half later, in a flight from Madrid to San Francisco that got redirected to Oslo, arriving
 more than 24h late to my first day in the valley.
 
-<img src="/assets/images/posts/So-how-is-it-working-at-a-Silicon-Valley-startup/standing-desk-300x400.webp" 
+<img src="/assets/images/posts/So-how-is-it-working-at-a-Silicon-Valley-startup/standing-desk-300x400.jpg" 
      alt="Image of a standing desk with an ultrawide monitor" />{: .align-right}
 
 One thing that gladly surprised me was that **there was indeed an on-boarding process**, in this case a github repo in 

@@ -8,8 +8,8 @@ excerpt: >-
     I'll talk from my recent experience about what I enjoyed, disliked and loved, and what I am looking for 
     when I’m being interviewed.
 header:
-    teaser:        /assets/images/posts/Refactoring-the-coding-interview/steve-halama-NPKk_3ZK2DY-unsplash-hdpi.webp
-    overlay_image: /assets/images/posts/Refactoring-the-coding-interview/steve-halama-NPKk_3ZK2DY-unsplash-xxxhdpi.webp
+    teaser:        /assets/images/posts/Refactoring-the-coding-interview/steve-halama-NPKk_3ZK2DY-unsplash-hdpi.jpg
+    overlay_image: /assets/images/posts/Refactoring-the-coding-interview/steve-halama-NPKk_3ZK2DY-unsplash-xxxhdpi.jpg
     overlay_filter: 0.5
 toc: true
 toc_sticky: true
@@ -63,7 +63,7 @@ But, during the interviews, I am the one *scrutinizing* them.
 I did that with Thoughtworks and lastminute.com last month, as well as replied to some recruiters that were contacting
 me.
 
-![image-left](/assets/images/posts/Refactoring-the-coding-interview/photo-1573019606806-9695d0a9739d-ldpi.webp){: .align-left}
+![image-left](/assets/images/posts/Refactoring-the-coding-interview/photo-1573019606806-9695d0a9739d-ldpi.jpg){: .align-left}
 I discarded a lot of interviews when the process felt copy — pasted.
 Those recruiters that took time to talk with me and see if we were aligned got me in the process,
 while those with automated pipelines sending me standard emails got discarded almost immediately.

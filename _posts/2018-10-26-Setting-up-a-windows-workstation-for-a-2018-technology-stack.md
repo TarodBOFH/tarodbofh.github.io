@@ -17,8 +17,8 @@ tags:
   - automation
   - workstation
 header:
-    teaser:        /assets/images/posts/Setting-up-a-windows-workstation-for-a-2018-technology-stack/liam-truong-U0GaXKQa8vY-unsplash-hdpi.webp
-    overlay_image: /assets/images/posts/Setting-up-a-windows-workstation-for-a-2018-technology-stack/liam-truong-U0GaXKQa8vY-unsplash-xxhdpi.webp
+    teaser:        /assets/images/posts/Setting-up-a-windows-workstation-for-a-2018-technology-stack/liam-truong-U0GaXKQa8vY-unsplash-hdpi.jpg
+    overlay_image: /assets/images/posts/Setting-up-a-windows-workstation-for-a-2018-technology-stack/liam-truong-U0GaXKQa8vY-unsplash-xxhdpi.jpg
 ---
 **update 2020:** Although the vast majority of stuff listed here still works on 2020, there is now [WinGet](https://www.theverge.com/2020/5/20/21264739/microsoft-windows-package-manager-preview-download)
 that I've not personally worked with yet.
@@ -145,7 +145,7 @@ I can install them with a Chocolatey script and either pin `choco pin …` them
 
 # One script to rule them all
 
-<img src="/assets/images/posts/Setting-up-a-windows-workstation-for-a-2018-technology-stack/the-one-ring-150x130.webp"
+<img src="/assets/images/posts/Setting-up-a-windows-workstation-for-a-2018-technology-stack/the-one-ring-150x130.jpg"
      alt="Photo of The One ring from the lord of the rings"/>{: .align-left }
      
 With all the improvements that Microsoft has made over the years to PowerShell I thought it was possible to pack a 

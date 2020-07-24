@@ -13,8 +13,8 @@ tags:
   - culture
   - mindset
 header:
-    teaser:        /assets/images/posts/feedback-and-sandwiches/suea-sivilaisith-foHj73zCV3Y-unsplash-hdpi.webp
-    overlay_image: /assets/images/posts/feedback-and-sandwiches/suea-sivilaisith-foHj73zCV3Y-unsplash-xxhdpi.webp
+    teaser:        /assets/images/posts/feedback-and-sandwiches/suea-sivilaisith-foHj73zCV3Y-unsplash-hdpi.jpg
+    overlay_image: /assets/images/posts/feedback-and-sandwiches/suea-sivilaisith-foHj73zCV3Y-unsplash-xxhdpi.jpg
     overlay_filter: 0.5
 classes: wide
 ---

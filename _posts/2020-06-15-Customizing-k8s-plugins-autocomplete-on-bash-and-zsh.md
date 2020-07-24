@@ -16,8 +16,8 @@ tags:
   - bash
   - zsh
 header:
-    teaser:        /assets/images/posts/customizing-k8s-plugins-autocomplete-on-bash-and-zsh/guillaume-bolduc-uBe2mknURG4-unsplash-hdpi.webp
-    overlay_image: /assets/images/posts/customizing-k8s-plugins-autocomplete-on-bash-and-zsh/guillaume-bolduc-uBe2mknURG4-unsplash-xxhdpi.webp
+    teaser:        /assets/images/posts/customizing-k8s-plugins-autocomplete-on-bash-and-zsh/guillaume-bolduc-uBe2mknURG4-unsplash-hdpi.jpg
+    overlay_image: /assets/images/posts/customizing-k8s-plugins-autocomplete-on-bash-and-zsh/guillaume-bolduc-uBe2mknURG4-unsplash-xxhdpi.jpg
     overlay_filter: 0.75
 classes: wide
 ---

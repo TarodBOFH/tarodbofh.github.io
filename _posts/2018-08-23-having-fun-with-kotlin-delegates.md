@@ -16,8 +16,8 @@ tags:
   - engineering
   - tips
 header:
-    teaser:        /assets/images/kotlin/louis-tsai-lqcvMiBABHw-unsplash-hdpi.webp
-    overlay_image: /assets/images/kotlin/matt-mckenna-LfjR6IOL7ts-unsplash-xxhdpi.webp
+    teaser:        /assets/images/kotlin/louis-tsai-lqcvMiBABHw-unsplash-hdpi.jpg
+    overlay_image: /assets/images/kotlin/matt-mckenna-LfjR6IOL7ts-unsplash-xxhdpi.jpg
     overlay_filter: 0.75
 ---
 I have been learning Kotlin [lately]({% post_url 2018-08-22-So-how-is-it-working-at-a-Silicon-Valley-startup---from-an-Spaniard-point-of-view %}),
