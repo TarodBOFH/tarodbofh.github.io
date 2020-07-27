@@ -13,7 +13,6 @@ tags:
   - kotlin
   - reified
   - delegate pattern
-  - engineering
   - tips
 header:
     teaser:        /assets/images/kotlin/louis-tsai-lqcvMiBABHw-unsplash-hdpi.jpg

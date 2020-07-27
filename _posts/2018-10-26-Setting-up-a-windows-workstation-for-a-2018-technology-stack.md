@@ -12,7 +12,6 @@ categories:
   - Software Engineering
 tags:
   - PowerShell
-  - engineering
   - tips
   - automation
   - workstation

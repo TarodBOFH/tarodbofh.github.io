@@ -13,7 +13,6 @@ tags:
   - personal
   - intro
   - startups
-  - engineering
 toc: false
 toc_sticky: true
 header:
