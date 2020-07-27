@@ -25,10 +25,10 @@ classes: wide
 # The Loop
 
 I already have been *in the loop* a couple of times.
-
 The first one was at a hiring event from Amazon at Madrid. I got the first call late August, and I was interviewing 
 on-site on the first week of September. I had not prepared the interview properly, I had a lot of fun and met a lot of
 [interesting](https://www.linkedin.com/in/terryleeper/) [people](https://www.linkedin.com/in/viveksagi/).
+{: .drop-letter}
 
 To be honest, I think I messed up those both interviews; first because my English skills were British based, and 
 I found really hard to understand American accents (and Terry’s accent when spelling *restaurant* was something 

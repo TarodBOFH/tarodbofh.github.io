@@ -19,12 +19,12 @@ header:
     teaser:        /assets/images/posts/Setting-up-a-windows-workstation-for-a-2018-technology-stack/liam-truong-U0GaXKQa8vY-unsplash-hdpi.jpg
     overlay_image: /assets/images/posts/Setting-up-a-windows-workstation-for-a-2018-technology-stack/liam-truong-U0GaXKQa8vY-unsplash-xxhdpi.jpg
 ---
-**update 2020:** Although the vast majority of stuff listed here still works on 2020, there is now [WinGet](https://www.theverge.com/2020/5/20/21264739/microsoft-windows-package-manager-preview-download)
-that I've not personally worked with yet.
+> **update 2020:** Although the vast majority of stuff listed here still works on 2020, there is now [WinGet](https://www.theverge.com/2020/5/20/21264739/microsoft-windows-package-manager-preview-download)
+> that I've not personally worked with yet.
 
-**update 2019:** If anyone is still reading this on 2019, after May 2019 Windows 10 Update, some PowerShell customizations 
-(colours) won’t work anymore (reason is that they deprecated some PSReadLine.options values).
-I´ve switched to [concfg](https://github.com/lukesampson/concfg) to customize my shells.
+> **update 2019:** If anyone is still reading this on 2019, after May 2019 Windows 10 Update, some PowerShell customizations 
+> (colours) won’t work anymore (reason is that they deprecated some PSReadLine.options values).
+> I´ve switched to [concfg](https://github.com/lukesampson/concfg) to customize my shells.
 
 # Background
 
@@ -34,6 +34,7 @@ For me, +20 years of typing on a *standard* keyboard, with its key placement was
 Other coworkers could adapt, but I was an avid gamer and using my home computer at the same time I was using a Mac for 
 work turned into a no-way.
 Also, I almost don’t use my mouse when working in Windows or Linux since I’ve become one with the keyboard.
+{: .drop-letter}
 
 I wanted to be able to keep gaming on my laptop while avoiding purchasing additional disk space to dual boot it, 
 I just thought, why not, *we are living in the future*, and I started my Ultimate Windows Workstation™

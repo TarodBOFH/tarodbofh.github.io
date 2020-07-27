@@ -21,10 +21,10 @@ header:
 ---
 I have been learning Kotlin [lately]({% post_url 2018-08-22-So-how-is-it-working-at-a-Silicon-Valley-startup---from-an-Spaniard-point-of-view %}),
 and playing with delegates and reified functions.
-
 For those that don’t know yet, a [delegate](https://en.wikipedia.org/wiki/Delegation_pattern) is an object-oriented 
 design or programming pattern. As [Grady Booch](https://www.linkedin.com/in/gradybooch) stated: *“ is a way to make 
 composition as powerful for reuse as inheritance”*
+{: .drop-letter}
 
 Our code generator generated [kotlin data classes](https://kotlinlang.org/docs/reference/data-classes.html) to be used 
 as POJOs/DTOs from *jooq*, but being as paranoid as possible with database normalization some business needs involving 

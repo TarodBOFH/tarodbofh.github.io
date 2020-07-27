@@ -13,11 +13,12 @@ header:
     overlay_image: /assets/images/posts/so-here-i-am/szabo-viktor-vE1As8YoJRs-unsplash-rotated-xxhdpi.jpg
 ---
 
-Hi there! :wave:
+#### Hi there! :wave:
 
 It has been a really long long time since I first wanted to create my tech-blog. It all started around the early 
 00s (yes, I' m that old...) but I had the feeling it was not going to have the right quality nor I had found the right 
 medium (wink, wink :wink: ) to publish it.
+{: .drop-letter}
 
 So let's start about myself.
 
