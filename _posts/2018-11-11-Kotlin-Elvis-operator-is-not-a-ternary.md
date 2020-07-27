@@ -2,8 +2,10 @@
 template: post
 title: Kotlin Elvis operator is not a ternary
 date: 2018-11-11
-excerpt: >-
-   What do you think this statement will out?
+tagline: What do you think this statement will out?
+excerpt: >- 
+    Last week, I was late at work and as soon as I entered the room, some coworkers shouted:
+    “Hey, over here, we’ve found a bug in Kotlin!”
 categories:
   - Software Engineering
 tags:
@@ -15,7 +17,7 @@ tags:
 header:
     teaser:        /assets/images/kotlin/matt-mckenna-LfjR6IOL7ts-unsplash-hdpi.jpg
     overlay_image: /assets/images/kotlin/louis-tsai-lqcvMiBABHw-unsplash-xxhdpi.jpg
-    overlay_filter: 0.25
+    overlay_filter: 0.50
 ---
 Last week, I was late at work because I had to take my motorbike to the garage.
 As soon as I entered the room and even before I could change my shoes, some coworkers shouted:
