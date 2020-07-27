@@ -30,7 +30,6 @@ our Gradle scripts in Kotlin.
 Almost every example out there about JUnit and Gradle is still using the old 
 dependencies or Groovy Gradle syntax, so let's try to migrate a Groovy build using JUnit Platform to Kotlin DSL, 
 specifically, based on examples about how to extend Gradle's test output to add summaries at the end of the build.
-{: .drop-letter}
 
 ## What we will achieve
 

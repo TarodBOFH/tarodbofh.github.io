@@ -27,7 +27,6 @@ tags:
 I have switched jobs recently, and I found myself doing some interviews.
 I have never been nervous nor feared interview processes as I tend to approach them with a learning attitude, 
 both as interviewer and interviewee. However, I found some code assignments too demanding for some candidates.
-{: .drop-letter}
 
 I have seen a lot of bloggers on the last three months posting (or complaining) about code assignments in the interview 
 process so, why am I also blogging about this?

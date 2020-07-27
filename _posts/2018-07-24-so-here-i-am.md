@@ -18,11 +18,10 @@ header:
 It has been a really long long time since I first wanted to create my tech-blog. It all started around the early 
 00s (yes, I' m that old...) but I had the feeling it was not going to have the right quality nor I had found the right 
 medium (wink, wink :wink: ) to publish it.
-{: .drop-letter}
 
 So let's start about myself.
 
-I was born in the end of the 70's in Spain. I think myself as a millennial (eat that!) since I am no generation-X, so I 
+I was born in the end of the 70s in Spain. I think myself as a millennial (eat that!) since I am no generation-X, so I 
 must be generation-Y.
 
 I am a software engineer, and I have been since I was a teenager (actually, sooner than that).

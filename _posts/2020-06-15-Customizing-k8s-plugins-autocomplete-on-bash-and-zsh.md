@@ -24,7 +24,6 @@ classes: wide
 
 I was procrastinating setting up my new mac for too much time.
 Today I was configuring our k8s environment, and I decided to invest some time to put the right autocomplete plugins.
-{: .drop-letter}
 
 I've seen some companies writing their own k8s ctl application, in order to offer a basic cmd-line interface that
 either lists contexts/services or has shortcut. Sometimes the shortcuts are needed, but most of the times those could

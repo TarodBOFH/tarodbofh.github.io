@@ -34,7 +34,6 @@ For me, +20 years of typing on a *standard* keyboard, with its key placement was
 Other coworkers could adapt, but I was an avid gamer and using my home computer at the same time I was using a Mac for 
 work turned into a no-way.
 Also, I almost don’t use my mouse when working in Windows or Linux since I’ve become one with the keyboard.
-{: .drop-letter}
 
 I wanted to be able to keep gaming on my laptop while avoiding purchasing additional disk space to dual boot it, 
 I just thought, why not, *we are living in the future*, and I started my Ultimate Windows Workstation™
