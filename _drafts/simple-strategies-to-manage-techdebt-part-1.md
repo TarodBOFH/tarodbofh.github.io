@@ -1,7 +1,6 @@
 ---
 template: post
-title: "Strategies to manage Technical Debt"
-
+title: "Strategies to manage Technical Debt - Part 1"
 excerpt: >- 
     Sometimes teams struggle to identify which technical debt items are worth investing into or how to align them to 
     company goals. 
@@ -33,8 +32,8 @@ gallery1:
 ---
 
 Recently I had a meeting to share ideas about how to help a team (engineering and product owners alike) not only aware
-of the importance of their tech-debt but also how to take ownership of it. For some reasons, this team had heavy rotation
-and the engineers did not find a way to remove their pain points during their sprints.
+of the importance of their tech-debt but also how to take ownership of it. For some reasons, this team had heavy
+rotation, and the engineers did not find a way to remove their pain points during their sprints.
 
 Working with some team members, we had already identified some points in various repositories and services, but we had 
 not been able to onboard everyone in the importance of those items. For example, there were some _code smells_, some 
@@ -62,7 +61,9 @@ We identified some of them (and left some for the next iterations):
 {% include figure 
     image_path="/assets/images/posts/simple-strategies-to-manage-techdebt/tech-debt-1.jpg"
     caption="This were the pain points detected with the team on the first iteration"
-    alt="Image with boxes about identified tech debt items with the titles Monotliths, Obsolote Stuff, Not Scaling, Unstable, Monitoring, Not using platform tools, Testing, Documentation, and Code Smells"  
+    alt="Image with boxes about identified tech debt items with the titles 
+        Monoliths, Obsolete Stuff, Not Scaling, Unstable, Monitoring, 
+        Not using platform tools, Testing, Documentation, and Code Smells"  
 %}
 
 Once we got some working examples, we could extract common information from them, this is trying to _classify_ them.
@@ -81,12 +82,13 @@ We used the initials `A`, `O` and `S` to tag our items:
 
 We had reached a stage where we could simply add some tags to given tech-debt items that gave some inspiration to 
 categorize them, but most importantly, we were able to extract the impact.
-Effectively, the impact of a given item was directly involved on how we were categorizing it.
+Effectively, how we were categorizing an item told us about its impact.
 
 {% include figure 
     image_path="/assets/images/posts/simple-strategies-to-manage-techdebt/tech-debt-3.jpg"
     caption="Grouping the different pain points into categories"
-    alt="Previous image deriving the impact from each category: Company Strategy, Bugs/Production problems and Time to Market"  
+    alt="Previous image deriving the impact from each category:
+        Company Strategy, Bugs/Production problems and Time to Market"  
 %}
 
 # Retrospective
@@ -98,12 +100,12 @@ tech-debt.
 
 # Some examples
 
-Lets say there are new features involving integrating with third parties that will consume our fancy new API that was 
+Let's say there are new features involving integrating with third parties that will consume our fancy new API that was 
 just built in a hurry for a PoC in the next Quarter. We had identified some tech debt related to speed on that part of 
 the codebase, like not enough tests, or some code that needs refactor because it was just a PoC. We know that this will 
 impact the time to market, so we can anticipate and just focus as technical goal for the sprints to "improve the time to 
 market for new API features" before we start working on the stories. Or maybe we are expecting a peak in our services 
-because some Company OKRs (go sales, :moneybag: go!), and we need to focus on improving our `O`perations stuff, like 
+because some Company OKRs (go sales, :moneybag: go!), and we need to focus on improving our operations stuff, like 
 monitoring, scaling or making the jobs resilient and parallelizable.
 
 # Technical Debt
@@ -117,10 +119,10 @@ it breaks too much or because it is not aligned with the company strategies (yes
 Sounds familiar? Basically is what the second point above glimpses: Team Speed Stuff, Operations Stuff and Architecture 
 Stuff. In other words:
 
-- Techdebt doesn't allow product to deliver features at the speed they want: **It slows development teams**
-- Techdebt are also pieces of software that we cannot mantain any longer (obsolete technology, tools or lack of
+- Techdebt doesn't allow product owners to deliver features at the speed they want: **It slows development teams**
+- Techdebt are also pieces of software that we cannot maintain any longer (obsolete technology, tools or lack of
   experts): **it is not aligned with company strategies**
-- Techdebt is also present when some products break _too often or even don't work as expected: **products already 
+- Techdebt is also present when some products break _too_ often or even don't work as expected: **products already 
   running in the company that have a high operational cost**
 
 **What is the formal definition?**
@@ -148,9 +150,10 @@ in 1992 by [Ward Cunningham](https://github.com/WardCunningham/remodeling "Githu
 Now we use infrastructure as a code, microservices architecture, CI/CD, agile philosophy and evolved technology stacks, 
 some of which were born just a couple of years ago and give a competitive advantage over old ones.
 
-We have seen stacks raise and die since then and using those dead stacks was not considered tech-debt at that time. 
+We have seen stacks raise and die since then and using those dead stacks were not considered tech-debt at that time. 
 We consider that anything in engineering that induces a cost for the company to grow, deliver or build new features is 
-technical debt, be it new or established. From architecture to code to culture and training.
+technical debt, be it new developments or things already in production.
+From architecture to code to culture and training.
 
 > We do not consider technical debt only stuff made consciously, but also stuff made some time ago which needs
 > reconsideration based on current software engineering standards, tools and technology, but also on updated company 
@@ -158,19 +161,20 @@ technical debt, be it new or established. From architecture to code to culture a
 
 ## How is technical debt born
 
-Technical debt is not only born in the code. This is one of the biggest errors thar Startups make when thinking about 
+Technical debt is not only born in the code. This is one of the biggest mistakes thar startups make when thinking about 
 it but also happens on established companies. According our definition above it can be born different ways. 
 
 For example, a stakeholder meeting establishing a plan for the company to duplicate clients or traffic will spawn
 a bunch of tech-debt items to optimize performance, allow scalability or other evolutions that are needed to achieve 
-that goal.
+that goal. Specially if scalability was not important for some services and thus their architecture was not focused on
+that.
 
-Maybe our company is not yet ready to fully automated CI/CD pipelines, and we have some manual QA testing, and some teams
-keep detecting in their retrospectives that there is a problem there, needing additional environments or just evolving 
-the pipelines and training the team to help them automate those tests.
+Maybe our company is not yet ready to fully automated CI/CD pipelines, and we have some manual QA testing, and some
+teams keep detecting in their retrospectives that there is a problem there, needing additional environments or just
+evolving the pipelines and training the team to help them automate those tests.
 
 Or a new technology spawning in our market that gives and advantage to competitors and forces the company to switch to
-it, evolving architectures, or just because there is a lack of engineers working in our previous technology stack. 
+it, evolving architectures or tools, or just because there is a lack of engineers working in our previous technology stack. 
 
 I stumbled recently upon this blog entry [Intentional Qualities](https://medium.com/@elizarov/intentional-qualities-7e6a57bb87fc) 
 from [Roman Elizarov](https://www.linkedin.com/in/relizarov) and we would like to highlight a couple of paragraphs there:
@@ -186,31 +190,40 @@ from [Roman Elizarov](https://www.linkedin.com/in/relizarov) and we would like t
 >intentional about it. You have to constantly fight against losing it. 
 
 I love that statement! You can start writing code that follows a target (secure, fast, easy to learn or maintain) but 
-several iterations later, it only needs one small commit not focused, and the code is not longer secure, fast or
-maintainable.
+several iterations later, it only needs one small commit not focused on that _-ility_, and the code is not longer 
+secure, fast or maintainable.
 
-TODO:
-```
-MONICA> Plz gather an example of non-code related techdebt like
-```
+As a recap, these are five examples of technical debt appears:
 
-### The second iteration
+ - During development, as a conscious decision or consensus in order to achieve a given goal faster (PoC or other)
+ - During development, by mistake (i.e. losing one or more of our software qualities)
+ - During development, detecting something that was not detected before
+ - Because new needs / company goals turns something into not-ideal / not good enough / not aligned
+ - Because new tools / technology / patterns emerge that solves problems in a different and more efficient way
+
+# The second iteration
 
 As a recap of our exercise above after the not-so-brief retrospective, we had already identified some tags (A, O, S) and
-the impact of some technical debt items. We got a starting point and the feeling of being in the right path. 
+the impact of some technical debt items.
+We had a starting point, and the feeling of being in the right path.
 
-We started to look for existing standards about the tags we were using on our tech-debt items but we were also aiming to
-keep this simple enough to make it broadly used in the company.
+We started to look for existing standards about the tags we were using on our tech-debt items, but we were also aiming
+to keep this simple enough to make it broadly used in the company.
 
-Our Enterprise Architects are used to deal with the Software Architecture _-ilities_ (check some of the videos about 
-them from [Neal Ford](http://nealford.com/) or [Mark Richards](http://www.wmrichards.com/)) so we started straight with 
-their recommendations. Something was going to be tech-debt and not just false positives if it was lacking any of the
-important _-illities_ for the company or the team.
+I already mentioned early the Software Architecture _-ilities_ (check some videos about them from [Neal Ford](http://nealford.com/) 
+or [Mark Richards](http://www.wmrichards.com/)), so we started straight with their recommendations.
+Something was going to be tech-debt and not just false positives if it was lacking any of the important _-ilities_ 
+for the company or team on a given point in time (important _-ilities_ change overtime as company goals and tools 
+evolve).
 
-There are some frameworks and acronyms that try to classify software according to their _-illities_, like ACID for 
-transactions, RASUI for operations, FURPS for requirements... We were inspired by them and we decided to group the list
-of _-illities_ that were important for the company (and our enterprise architects) into one or more of the categories we
-already had identified.
+There are some frameworks and acronyms that try to classify software according to their _-ilities_, like [ACID](https://en.wikipedia.org/wiki/ACID) 
+for transactions, [RAS](https://en.wikipedia.org/wiki/Reliability,_availability_and_serviceability) for operations, 
+[FURPS](https://en.wikipedia.org/wiki/FURPS) for requirements...
+We were inspired by them, and we decided to group the list of _-ilities_ that were important for the company into one 
+or more of the categories we already had identified.
+
+On the next entry of this series, we will introduce an evolved version of this framework and on the third entry we will 
+see a comparision matrix for the company and how that comparision matrix is useful to the teams.
 
 ```
 TODO: Put the names and impacts of each category
