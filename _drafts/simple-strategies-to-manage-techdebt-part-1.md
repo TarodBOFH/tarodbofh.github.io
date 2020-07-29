@@ -86,7 +86,7 @@ Effectively, how we were categorizing an item told us about its impact.
 
 {% include figure 
     image_path="/assets/images/posts/simple-strategies-to-manage-techdebt/tech-debt-3.jpg"
-    caption="Grouping the different pain points into categories"
+    caption="We could see the impact from each category easily and this drove us towards the matrix in the next part of this series."
     alt="Previous image deriving the impact from each category:
         Company Strategy, Bugs/Production problems and Time to Market"  
 %}
