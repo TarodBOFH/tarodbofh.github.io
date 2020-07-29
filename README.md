@@ -20,18 +20,18 @@ A `jekyll` Dockerfile is included by convenience. It's just using the default [J
 It needs a jekyll website on the volume `/srv/jekyll` and it exposes 4000 port for local testing.
 
 The `ENTRYPOINT` is a script that runs `CMD` as Jekyll user on the right directories and permissions.
-The default `CMD` is `jekyll help`. 
+The default `CMD` is `jekyll serve --drafts`. That should boot a local jekyll generating the site for development stage.
 
 To use it, just run:
 
 Bash:
 ```bash
-docker build -t jekyll-dev . && docker run --rm -p 4000:4000 -v $(pwd):/srv/jekyll jekyll-dev jekyll serve --drafts
+docker build -t jekyll-dev . && docker run --rm -p 4000:4000 -v $(pwd):/srv/jekyll jekyll-dev
 ```
 
 PowerShell:
 ```powershell
-docker build -t jekyll-dev . && docker run --rm -p 4000:4000 -v ${PWD}:/srv/jekyll jekyll-dev jekyll serve --drafts
+docker build -t jekyll-dev . && docker run --rm -p 4000:4000 -v ${PWD}:/srv/jekyll jekyll-dev
 ```
 
 Then navigate to `localhost:4000` and you should be able to see the static website.
