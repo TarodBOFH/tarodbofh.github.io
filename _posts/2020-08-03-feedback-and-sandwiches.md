@@ -1,6 +1,6 @@
 ---
 title: Feedback and Sandwiches
-date: 2020-07-21
+date: 2020-08-03
 excerpt: >-
     I saw something at [Basecamp's "How we communicate"](https://basecamp.com/guides/how-we-communicate) guide that
     made me think about the classic sandwich when delivering bad news/feedback, so I decided to share a feedback canvas
