@@ -17,7 +17,7 @@ breadcrumbs: true # beta
 
 twitter_username: TarodBOFH
 github_username: TarodBOFH
-minimal_mistakes_skin: dark # "default"
+minimal_mistakes_skin: "default" # dark  "default"
 search: true
 search_full_content: true
 
