@@ -8,7 +8,7 @@ _site
 Gemfile.lock
 
 # MacOS
-**/.DS_Store
+.DS_Store
 
 # GIMP Temp files on assets
-assets/**/*.*~
+*.*~
