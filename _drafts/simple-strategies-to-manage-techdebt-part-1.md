@@ -14,7 +14,6 @@ tags:
     - software architecture
     - enterprise architecture
     - technical debt
-    - tech-debt
     - techdebt
 header:
     teaser:        /assets/images/posts/simple-strategies-to-manage-techdebt/alice-pasqual-Olki5QpHxts-unsplash-hdpi.jpg
