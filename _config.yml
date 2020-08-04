@@ -29,7 +29,7 @@ analytics:
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes@1f0b50044c058dbdf377867996ddc72c7fdfcf59
+remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
 paginate: 4 # amount of posts to show
