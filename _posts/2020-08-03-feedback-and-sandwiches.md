@@ -38,7 +38,7 @@ receiving feedback.
 
 As part of a team-building exercise to build trust, we made confessions to coworkers. One of the techniques shared by 
 the trainer was the _sandwich_. I've learned that it is a classic in American culture, and
-once aware of it I was able to identify _the sandwich :sandwich:_ early on during conversations:
+once aware of it I was able to identify _the sandwich :hamburger:_ early on during conversations:
 
 > Hey Juan! Can I say something personal to you? I've always appreciated you and your family!
 > You need to lose some weight because your health is important, and it's a wonderful daughter you need to take care of!
