@@ -131,3 +131,5 @@ on mockito that were already resolved.
 **Update:** The mockk issue fas fixed on `mockk 1.8.7` release, less than 10 days after I submitted the bug.
 
 That is grade A job from the maintainers. Kudos!
+
+_Originally published in_ [<i class="fab fa-fw fa-medium"></i>Medium](https://medium.com/@juan_ara/mockk-messing-up-with-the-jvm-10fbdd548a78)
