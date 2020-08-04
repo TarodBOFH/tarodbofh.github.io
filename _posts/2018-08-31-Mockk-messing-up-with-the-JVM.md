@@ -8,6 +8,14 @@ header:
     overlay_image: /assets/images/Mockk-messing-up-with-the-JVM/1*n9IGmMwkGdl4OGdIQpqWdQ.jpeg
     overlay_filter: 0.75
 classes: wide
+categories:
+  - Software Engineering
+tags:
+  - kotlin
+  - mockk
+  - java
+  - tdd
+  - testing
 ---
 > **Update:** this issue was fixed [here](https://github.com/mockk/mockk/issues/129).
 
