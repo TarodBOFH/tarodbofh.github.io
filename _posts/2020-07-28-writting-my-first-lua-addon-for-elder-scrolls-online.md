@@ -366,7 +366,7 @@ chat and interact with my guild mates without opening the guild window.
 
 ## The Result
 
-{% include figure image_path="/assets/images/elder-scrolls-online/IMG_20200728_161848_379.jpg" alt="Image showing in game chat with the members of two guilds online" caption="Final result of /guildinfo command" %}
+{% include figure image_path="/assets/images/elder-scrolls-online/chat-result.jpg" alt="Image showing in game chat with the members of two guilds online" caption="Final result of /guildinfo command" %}
 
 The full sourcecode for the addon can be found in my Git Hub [repository](https://github.com/TarodBOFH/TarodGuildInfo).
 

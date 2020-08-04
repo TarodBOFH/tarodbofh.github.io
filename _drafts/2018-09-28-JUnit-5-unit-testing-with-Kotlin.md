@@ -3,15 +3,16 @@ template: post
 title: JUnit 5 unit testing with Kotlin
 date: 2018-09-28
 excerpt: >-
-  At Returnly we are using, among others, JUnit Jupiter to test our back-end
-  services.
-thumb_img_path: images/JUnit-5-unit-testing-with-Kotlin/1*p2nPxZvpyV8sI6Ynh6V6EA.png
+  At Returnly we are using, among others, JUnit Jupiter to test our back-end services. There is some lack of
+  documentation / examples so I will setup some gradle and kotlin examples.
+header:
+    overlay_image: /asses/images/JUnit-5-unit-testing-with-Kotlin/1*p2nPxZvpyV8sI6Ynh6V6EA.png
 ---
 At [Returnly](https://returnly.com/) we are using [JUnit Jupiter](https://junit.org/junit5/docs/current/user-guide/) to test our back-end services. We also use [mockk](https://mockk.io/) and [assertj](http://joel-costigliola.github.io/assertj/) which are great libraries that help **a lot** to build readable code.
 
 This article will try to cover the basics of using parameterized tests, especially by trying to keep test data separated from the test classes.
 
-We have started to move into p[arameterized](http://twitter.com/ParameterizedTest "Twitter profile for @ParameterizedTest") [tests](https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests) by creating various set of data objects. Sometimes just CSV sources are fine and our product managers love them (since they can define datasets without knowing how to code) but we engineers tend to prefer working with DSL or Domain Objects.
+We have started to move into [parameterized](http://twitter.com/ParameterizedTest "Twitter profile for @ParameterizedTest") [tests](https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests) by creating various set of data objects. Sometimes just CSV sources are fine and our product managers love them (since they can define datasets without knowing how to code) but we engineers tend to prefer working with DSL or Domain Objects.
 
 A `@ParameterizedTest` is a test that takes some kind of values as arguments and tests them. We found them useful to test edge error cases and unhappy paths, for example:
 
