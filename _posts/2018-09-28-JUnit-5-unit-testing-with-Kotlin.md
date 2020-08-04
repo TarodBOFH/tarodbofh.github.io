@@ -4,7 +4,7 @@ title: JUnit 5 unit testing with Kotlin
 date: 2018-09-28
 excerpt: >-
   At Returnly, we are using, among others, JUnit Jupiter to test our back-end services. There is some lack of
-  documentation and examples, so I will setup some gradle and kotlin examples.
+  documentation and examples, so I will setup some parameterized test examples.
 header:
     teaser: /assets/images/returnly/00f5e6da-a550-4406-a766-41eb05d725c3-1581012589090.png
     overlay_image: /assets/images/kotlin/matt-mckenna-LfjR6IOL7ts-unsplash-xxhdpi.jpg
@@ -20,10 +20,20 @@ tags:
   - junit
   - tdd
   - testing
+  
+gallery1:
+  - image_path: ""
+  - image_path: /assets/images/JUnit-5-unit-testing-with-Kotlin/1*p2nPxZvpyV8sI6Ynh6V6EA.png
+    alt: "Image showing the result of running parameterized tests on junit jupiter inside IntelliJ"
+    title: "JUnit 5 IntelliJ output"
+  - image_path: ""  
+toc: true
 ---
 
 > Update 2019: Like this entry?
 > Try [Using Gradle Kotlin DSL with junit 5]({% post_url 2019-08-07-using-gradle-kotlin-dsl-with-junit5 %})
+
+# Introduction
 
 At [Returnly](https://returnly.com/) we are using [JUnit Jupiter](https://junit.org/junit5/docs/current/user-guide/) to 
 test our back-end services.
@@ -43,6 +53,8 @@ We found them useful to test edge error cases and unhappy paths, for example:
 
 {% gist c74cd71c782ac744e4e2730930121323 %}
 
+# Gradle Setup
+
 With the new gradle 4.6+ native JUnit Platform integration, it is straightforward to run the tests within gradle:
 
 {% gist ca13ba9a84369af2aca41ea0ccf8a910 %}
@@ -54,12 +66,13 @@ Other people prefer to make the tests never `UP-TO-DATE` with `test.outputs.upTo
 
 I prefer the built in `cleantTest` task.
 
-{% include figure 
-  image_path="/assets/images/JUnit-5-unit-testing-with-Kotlin/1*p2nPxZvpyV8sI6Ynh6V6EA.png" 
-  alt="Image showing the result of running parameterized tests on junit jupiter inside IntelliJ" 
-  caption="Parameterized tests display nice in IDEs" %}
+On a console or standard output, the now [deprecated plugin for JUnit](https://junit.org/junit5/docs/current/user-guide/#running-tests-build-gradle) 
+displayed the test results in a tree, but with gradle’s native implementation we get only a `BUILD SUCCESSFUL in {$time}s`.
 
-On console or standard output, the now [deprecated plugin for JUnit](https://junit.org/junit5/docs/current/user-guide/#running-tests-build-gradle) displayed the test results in a tree, but with gradle’s native implementation we get only a `BUILD SUCCESSFUL in {$time}s`. To see the summary we have added the `afterSuite` [TestListener](https://docs.gradle.org/current/javadoc/org/gradle/api/tasks/testing/TestListener.html) to the `test` closure as an example above. The output has a nice summary:
+To see the summary we have added the `afterSuite` [TestListener](https://docs.gradle.org/current/javadoc/org/gradle/api/tasks/testing/TestListener.html) 
+to the `test` closure as an example above.
+
+The output has a nice summary:
 
 ```
 Testing started at 16:56 ...  
@@ -92,16 +105,20 @@ dependencies {
 }
 ```
 
+{% include gallery id="gallery1" caption="Parameterized tests display nice in IDEs" class="text-left" %}{: .text-left}
+
+# Passing arguments to parameterized tests in kotlin
+
 Following [these hints](https://blog.philipphauer.de/best-practices-unit-testing-kotlin/), We have been using a 
 `@Nested` inner class to implement the error cases or unhappy paths.
-Sometimes, ValueSource seems *ugly*, and it is not possible to add some *flavor* to it:
+Sometimes, `ValueSource` seems *ugly*, and it is not possible to add some *flavor* to it:
 
-{% gist cff5af3b70767b2f0dd625e55f9c5252.js %}
+{% gist cff5af3b70767b2f0dd625e55f9c5252 %}
 
 Values passed to an annotation need to be a constant value, which forbids us to use ranges or other constructs there, 
-for example
+for example:
 
-{% gist 5452336c6914e63c9af51351e2568aae.js %}
+{% gist 5452336c6914e63c9af51351e2568aae %}
 
 Throws a compile-time error like this:
 
@@ -111,34 +128,41 @@ Error:(16, 25) Kotlin: An annotation argument must be a compile-time constant
 
 To solve that, we can use the `@MethodSource` annotation, but that forces us to:
 
-*   Have a method without arguments
-*   Use `@TestInstance(TestInstance.Lifecycle.PER_CLASS)` annotation **and** having the method part of the test class
+-   Have a method without arguments
+-   Use `@TestInstance(TestInstance.Lifecycle.PER_CLASS)` annotation **and** having the method part of the test class
 or producing a static method ([source](https://junit.org/junit5/docs/current/api/org/junit/jupiter/params/provider/MethodSource.html))
 
 This leads to some strange code or other weird constructs, specially because we want to avoid using static methods in
 Kotlin with the JVMStatic annotation, like:
  
 ```kotlin 
-fun get1To10() = (1..10).*toList*().*toIntArray*()
+fun get1To10() = (1..10).toList().toIntArray()
 ```
 
 As we mentioned earlier, we are using some DSL or pre-configured domain objects with know values
 (i.e. `val valid_amounts = (1..10)` ).
-Some people would have thought to bypass the compile-time constant error above by having 
-`const val *VALID_AMOUNTS* = *valid_amounts*.*toList*().*toIntArray*()` but in Kotlin, only primitives and Strings can
-be constant values, so often this is not an option.
+Some people would have thought to bypass the compile-time constant error above by having something like:
+
+```kotlin
+const val VALID_AMOUNTS = valid_amounts.toList().toIntArray() //compile error
+``` 
+
+Unfortunately, in Kotlin, only primitives and Strings can be constant values, so often this is not an option.
 
 Even though we always try to keep our tests simple, if we add the domain objects to the test class it can make it
 grow, and we don’t think that mixing test data with the test methods is a good idea.
+
 We are using [Kotlin Extensions](https://kotlinlang.org/docs/reference/extensions.html) to define our test domain
 objects and thus keeping our test data from our test implementation as clean as possible.
+
 This means that we have a separate file with the test data (much like the old CSV files that product uses) but in 
 an _engineerly_ way.
 
 One thing we can do, though is to use the [ArgumentsSource](https://junit.org/junit5/docs/current/api/org/junit/jupiter/params/provider/ArgumentsSource.html)
 annotation and have a *Factory* class which implements [ArgumentsProvider](https://junit.org/junit5/docs/current/api/org/junit/jupiter/params/provider/ArgumentsProvider.html)
 and its *arguments* method.
-This sounds overkill but is easy to implement thanks to reified inline functions and delegation:
+
+Although it sounds overkill, it is easy to implement thanks to reified inline functions and delegation:
 
 {% gist c3a9e825a3c18e5038051e251ba97a53 %}
 
@@ -148,6 +172,8 @@ Then, our test method becomes:
 
 The complete source now has two files, and it is easy to extend or maintain. 
 We got a nice functionality to reuse our ArgumentsProvider if we move it to one of our standard libraries.
+
+# TLDR>
 
 This is how the code looks after all the changes:
 
