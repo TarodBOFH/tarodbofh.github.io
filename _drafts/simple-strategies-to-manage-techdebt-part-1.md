@@ -20,7 +20,8 @@ header:
     overlay_image: /assets/images/posts/simple-strategies-to-manage-techdebt/ruth-enyedi-zuwx2tvI_iM-unsplash-xxhdpi.jpg
     overlay_filter: 0
 classes: wide
-
+intro: 
+  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 gallery1:
   - image_path: ""
   - url: /assets/images/unsplash-gallery-image-2.jpg
@@ -29,6 +30,13 @@ gallery1:
     title: "Image 2 title caption"
   - image_path: ""
 ---
+{% include feature_row id="intro" type="center" %}
+
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+> aliqua. 
+> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
 
 Recently I had a meeting to share ideas about how to help a team (engineering and product owners alike) not only aware
 of the importance of their tech-debt but also how to take ownership of it. For some reasons, this team had heavy
@@ -161,19 +169,27 @@ From architecture to code to culture and training.
 ## How is technical debt born
 
 Technical debt is not only born in the code. This is one of the biggest mistakes thar startups make when thinking about 
-it but also happens on established companies. According our definition above it can be born different ways. 
+it but also happens on established companies. According our definition above it can be born different ways.
 
-For example, a stakeholder meeting establishing a plan for the company to duplicate clients or traffic will spawn
+Let's explore some example: 
+
+- A stakeholder meeting establishing a plan for the company to duplicate clients or traffic will spawn
 a bunch of tech-debt items to optimize performance, allow scalability or other evolutions that are needed to achieve 
 that goal. Specially if scalability was not important for some services and thus their architecture was not focused on
 that.
-
-Maybe our company is not yet ready to fully automated CI/CD pipelines, and we have some manual QA testing, and some
+- Our company is not yet ready to fully automated CI/CD pipelines, and we have some manual QA testing, and some
 teams keep detecting in their retrospectives that there is a problem there, needing additional environments or just
 evolving the pipelines and training the team to help them automate those tests.
-
-Or a new technology spawning in our market that gives and advantage to competitors and forces the company to switch to
-it, evolving architectures or tools, or just because there is a lack of engineers working in our previous technology stack. 
+- A new technology spawning in our market that gives and advantage to competitors and forces the company to switch to
+it, evolving architectures or tools, or just because there is a lack of engineers working in our previous technology
+stack.
+- A merge is happening with another company, and we need to improve our ability to integrate with them, by improving our
+documentation, APIs and standardization.
+- A library we were using in the past suddenly gets a new major version and drops support and compatibility with the 
+previous one.
+-  A quick bug fix that did not pass a proper code review gets forgotten in the codebase. Also, this bug fix has 
+unforeseen consequences (see bellow)
+- ...
 
 I stumbled recently upon this blog entry [Intentional Qualities](https://medium.com/@elizarov/intentional-qualities-7e6a57bb87fc) 
 from [Roman Elizarov](https://www.linkedin.com/in/relizarov) and we would like to highlight a couple of paragraphs there:
@@ -221,21 +237,5 @@ for transactions, [RAS](https://en.wikipedia.org/wiki/Reliability,_availability_
 We were inspired by them, and we decided to group the list of _-ilities_ that were important for the company into one 
 or more of the categories we already had identified.
 
-On the next entry of this series, we will introduce an evolved version of this framework and on the third entry we will 
-see a comparision matrix for the company and how that comparision matrix is useful to the teams.
-
-```
-TODO: Put the names and impacts of each category
-
-TODO: Put the examples for each category
-
-TODO: Talk about the knowledge matrix and how it can be automated from JIRA/techdeb backlog properties
-
-TODO: Talk about how this will help to standarize metrics and communication (my architecture tech-debt is 5 being mostly
-related to standards)
-
-TODO: Rabani talks about techdebt beint a _slow poison_ (evolve around this idea)
-
-### Conclusion
-TODO: Lore ipsum...
-```
+On the next entry of this series, we will introduce an evolved version of this framework and a comparision matrix for 
+the company and how that comparision matrix is useful to the teams.
