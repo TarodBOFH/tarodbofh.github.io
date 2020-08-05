@@ -31,7 +31,7 @@ Then, I had run into an issue that *felt* could be improved.
 I had read about [*mockk*](https://mockk.io/) from a coworker, so I gave it a try.
 I started to implement a new functionality that had **nothing to do with another one** and implemented the tests.
 The only relation they had was a table that the new functionality was reading from the database
-(not writting to, I promise!).
+(not writing to, I promise!).
 
 Guess what happened after that?
 Some other tests started to fail.
