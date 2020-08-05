@@ -54,6 +54,9 @@ include:
 #   - vendor/ruby/
 exclude:
     - .idea/
+    - Dockerfile
+    - Gemfile
+    - Gemfile.lock
 
 # Plugins (previously gems:)
 plugins:
