@@ -16,8 +16,10 @@ tags:
   - java
   - tdd
   - testing
+intro: 
+  - excerpt: "**Update:** The mockk issue fas fixed on `mockk 1.8.7` release, less than 10 days after I submitted the bug [here](https://github.com/mockk/mockk/issues/129)."
 ---
-> **Update:** this issue was fixed [here](https://github.com/mockk/mockk/issues/129).
+{% include feature_row id="intro" type="center" %}
 
 I was working in a new service; I had been pushing commits as crazy, with their appropriate tests, and I was using 
 [kotlin](https://kotlinlang.org), 
