@@ -4,8 +4,8 @@ title: "Strategies to manage Technical Debt - Part 1"
 excerpt: >- 
     Sometimes teams struggle to identify which technical debt items are worth investing into, or how to align them to 
     company goals. 
-    We recently had some internal sessions to discuss this topic, and we came with a simple strategy to classify and 
-    measure techdebt across teams while having a chance to align it with our product needs.
+    We recently had some internal sessions to discuss this topic, and we came up with a simple strategy to classify and 
+    measure technical debt across teams, while having a chance to align it with our product needs.
 toc: false
 toc_sticky: true
 categories:
@@ -49,7 +49,7 @@ gallery1:
     title: "Image 2 title caption"
   - image_path: ""
 ---
-> Three series article about how to manage technical debt in a simple and fun way. 
+> Three article series about how to manage technical debt in a simple and fun way. 
 
 {% include feature_row id="feature-row" %}
 

@@ -56,7 +56,7 @@ gallery1:
     title: "We could see the impact from each category easily and this drove us towards the matrix in the next part of this series."
     alt: "Previous image deriving the impact from each category: Company Strategy, Bugs/Production problems and Time to Market"
 ---
-> Three series article about how to manage technical debt in a simple and fun way. 
+> Three article series about how to manage technical debt in a simple and fun way. 
 
 {% include feature_row id="feature-row" %}
 
