@@ -2,7 +2,7 @@
 template: post
 title: "Strategies to manage Technical Debt - Part 1"
 excerpt: >- 
-    Sometimes teams struggle to identify which technical debt items are worth investing into or how to align them to 
+    Sometimes teams struggle to identify which technical debt items are worth investing into, or how to align them to 
     company goals. 
     We recently had some internal sessions to discuss this topic, and we came with a simple strategy to classify and 
     measure techdebt across teams while having a chance to align it with our product needs.
