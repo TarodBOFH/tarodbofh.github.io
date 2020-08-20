@@ -46,7 +46,7 @@ gallery1:
         Image with boxes about identified tech debt items with the titles 
         Monoliths, Obsolete Stuff, Not Scaling, Unstable, Monitoring, 
         Not using platform tools, Testing, Documentation, and Code Smells
-    title: "his were the pain points detected with the team on the first iteration"
+    title: "This were the pain points detected with the team on the first iteration"
   - url: "/assets/images/posts/simple-strategies-to-manage-techdebt/tech-debt-2.jpg"
     image_path: "/assets/images/posts/simple-strategies-to-manage-techdebt/tech-debt-2.jpg"
     title: "Grouping the different pain points into categories"
