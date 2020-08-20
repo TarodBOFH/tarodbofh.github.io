@@ -5,7 +5,7 @@ excerpt: >-
     Sometimes teams struggle to identify which technical debt items are worth investing into or how to align them to 
     company goals. 
     We recently had some internal sessions to discuss this topic, and we came with a simple strategy to classify and 
-    measure techdebt across teams while having a chance to align it with product needs.
+    measure techdebt across teams while having a chance to align it with our product needs.
 toc: false
 toc_sticky: true
 categories:
@@ -14,14 +14,33 @@ tags:
     - software architecture
     - enterprise architecture
     - technical debt
-    - techdebt
 header:
     teaser:        /assets/images/posts/simple-strategies-to-manage-techdebt/alice-pasqual-Olki5QpHxts-unsplash-hdpi.jpg
     overlay_image: /assets/images/posts/simple-strategies-to-manage-techdebt/ruth-enyedi-zuwx2tvI_iM-unsplash-xxhdpi.jpg
-    overlay_filter: 0
+    overlay_filter: 0.25
 classes: wide
-intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+feature-row:
+  - image_path: /assets/images/posts/simple-strategies-to-manage-techdebt/alice-pasqual-Olki5QpHxts-unsplash-hdpi.jpg
+    excerpt: >-
+        Why teams struggle with technical debt. Technical debt definition adapted to modern
+        times. Introduction to a simple framework to classify and see technical debt impact in a team.
+    url: "/software engineering/simple-strategies-to-manage-techdebt-part-1/#introduction"
+    btn_label: "Keep reading!"
+    btn_class: "btn--primary"
+  - image_path: "/assets/images/posts/simple-strategies-to-manage-techdebt/kat-yukawa-K0E6E0a0R3A-unsplash-hdpi.jpg"
+    excerpt: >-
+        Evolve the simple framework by using industry standard definitions, like the sofware architecture _illities_.
+        Explain by example and group them on predefined categories.
+    url: "/software engineering/simple-strategies-to-manage-techdebt-part-2/"
+    btn_label: "Part 2"
+    btn_class: "btn--primary"
+  - image_path: "/assets/images/posts/simple-strategies-to-manage-techdebt/sydney-rae-geM5lzDj4Iw-unsplash-hdpi.jpg"
+    excerpt: >-
+        Standardize metrics, language and communication to allow company wide alignment and high level planning.
+        Examples of how this framework can be used across different teams.
+    url: "/software engineering/simple-strategies-to-manage-techdebt-part-3/"
+    btn_label: "Part 3"
+    btn_class: "btn--primary"
 gallery1:
   - image_path: ""
   - url: /assets/images/unsplash-gallery-image-2.jpg
@@ -30,29 +49,37 @@ gallery1:
     title: "Image 2 title caption"
   - image_path: ""
 ---
-{% include feature_row id="intro" type="center" %}
+> Three series article about how to manage technical debt in a simple and fun way. 
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-> aliqua. 
-> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+{% include feature_row id="feature-row" %}
+
+# Introduction
 
 Recently I had a meeting to share ideas about how to help a team (engineering and product owners alike) not only aware
 of the importance of their tech-debt but also how to take ownership of it. For some reasons, this team had heavy
 rotation, and the engineers did not find a way to remove their pain points during their sprints.
 
-Working with some team members, we had already identified some points in various repositories and services, but we had 
-not been able to onboard everyone in the importance of those items. For example, there were some _code smells_, some 
+Working with some team members, we had already identified some items in various repositories and services, but we had 
+not been able to onboard everyone in the importance of them. For example, there were some _code smells_, some 
 services had tons _legacy code_ (with few tests or no documentation) and other stuff that usually is considered
 technical debt.
+The most senior or historic engineers on the team did not notice lack of documentation or tests as technical debt
+(after all they were the technical experts and owners of the repositories), but the product owners were seeing some 
+slowness onboarding new engineers on the team.
+On the other hand, the product owners were not aware of some technical deficiencies (or if they were they thought they 
+had no impact at all), but the engineers were not happy with some old tools, libraries and patterns used.
+
+Although when written as above it might be clear a relationship exists between the pairs, it needed an external feedback
+to make the whole team aware of it.
 
 So we gathered together again, this time hands-on to try to find the best approach to the problems they were facing:
 
 - How to identify if something was really tech-debt or just false positives
-- How to measure the impact of each tech-debt item 
+- How to measure the impact of each tech-debt item
 - How to reach consensus within the team (including product owner) that a given piece of software needed some love 
 :heart_eyes: :hearts: <sup>:hearts: <sup>:hearts:</sup></sup>
+
+Basically we were going to **observe**, **measure impact** and **raise awareness**.
 
 # The first iteration
 
@@ -74,10 +101,11 @@ We identified some of them (and left some for the next iterations):
 %}
 
 Once we got some working examples, we could extract common information from them, this is trying to _classify_ them.
+
 In order classify something, you need a criterion. Our criteria were not clear at that moment but became clearer when 
 we saw the impacts, much later on. At this stage we saw some _**"architectural deficiencies"**_, some _**"things related
-to production"**_ and finally other _stuff_ related to _**"how fast and happy the team was"**_
-while working on certain code bases.
+to production"**_ and finally other _stuff_ related to _**"how fast and happy the team was"**_ while working on certain
+repositories.
 
 We used the initials `A`, `O` and `S` to tag our items:
 
@@ -105,15 +133,20 @@ opportunities to establish some tech-debt goals within the Team. The team could 
 the upcoming user stories and thus was a great way to align everyone, from product to engineering into dealing with 
 tech-debt.
 
+We did a small retrospective, and we all agreed that while powerful to raise awareness we could exploit more if we moved
+deeper on the framework we were creating.
+
 # Some examples
 
 Let's say there are new features involving integrating with third parties that will consume our fancy new API that was 
 just built in a hurry for a PoC in the next Quarter. We had identified some tech debt related to speed on that part of 
-the codebase, like not enough tests, or some code that needs refactor because it was just a PoC. We know that this will 
-impact the time to market, so we can anticipate and just focus as technical goal for the sprints to "improve the time to 
-market for new API features" before we start working on the stories. Or maybe we are expecting a peak in our services 
-because some Company OKRs (go sales, :moneybag: go!), and we need to focus on improving our operations stuff, like 
-monitoring, scaling or making the jobs resilient and parallelizable.
+the codebase, like not enough tests, documentation,  or some code that needs refactor because it was just a PoC.
+We know that this will impact the time to market, so we can anticipate and just focus as technical goal for the sprints 
+to "improve the time to market for new API features" before we start working on the stories.
+
+Or maybe we are expecting a peak in our services because some Company OKRs (go sales, :moneybag: go!), 
+and we need to focus on improving our operations stuff, like monitoring, scaling or making the jobs resilient and 
+parallelizable.
 
 # Technical Debt
 
@@ -162,9 +195,13 @@ We consider that anything in engineering that induces a cost for the company to 
 technical debt, be it new developments or things already in production.
 From architecture to code to culture and training.
 
+This was our amendment to the classic technical debt definitions:
 > We do not consider technical debt only stuff made consciously, but also stuff made some time ago which needs
-> reconsideration based on current software engineering standards, tools and technology, but also on updated company 
-> strategy and needs.
+> reconsideration based on **current** software engineering standards, tools and technology, 
+> but also on **updated company strategy and needs**.
+
+This updated definition helped us to revisit our projects periodically to make sure they are aligned with company
+strategy but also helps us to deprecate things we are going to evolve when their stacks become obsolete.
 
 ## How is technical debt born
 
@@ -175,8 +212,8 @@ Let's explore some example:
 
 - A stakeholder meeting establishing a plan for the company to duplicate clients or traffic will spawn
 a bunch of tech-debt items to optimize performance, allow scalability or other evolutions that are needed to achieve 
-that goal. Specially if scalability was not important for some services and thus their architecture was not focused on
-that.
+that goal. Specially if scalability was not important for some services previously, and thus their architecture was not 
+focused on that.
 - Our company is not yet ready to fully automated CI/CD pipelines, and we have some manual QA testing, and some
 teams keep detecting in their retrospectives that there is a problem there, needing additional environments or just
 evolving the pipelines and training the team to help them automate those tests.
@@ -186,9 +223,10 @@ stack.
 - A merge is happening with another company, and we need to improve our ability to integrate with them, by improving our
 documentation, APIs and standardization.
 - A library we were using in the past suddenly gets a new major version and drops support and compatibility with the 
-previous one.
+previous one. While dead (without evolution) projects could keep using the library, keeping it on live/active projects 
+could trigger a problem in the near future. 
 -  A quick bug fix that did not pass a proper code review gets forgotten in the codebase. Also, this bug fix has 
-unforeseen consequences (see bellow)
+unforeseen consequences
 - ...
 
 I stumbled recently upon this blog entry [Intentional Qualities](https://medium.com/@elizarov/intentional-qualities-7e6a57bb87fc) 
@@ -210,9 +248,9 @@ secure, fast or maintainable.
 
 As a recap, these are five examples of technical debt appears:
 
+ - At any time (dev, test, prod), detecting something that was not detected before (third party library bug, side effect...)
  - During development, as a conscious decision or consensus in order to achieve a given goal faster (PoC or other)
  - During development, by mistake (i.e. losing one or more of our software qualities)
- - During development, detecting something that was not detected before
  - Because new needs / company goals turns something into not-ideal / not good enough / not aligned
  - Because new tools / technology / patterns emerge that solves problems in a different and more efficient way
 
@@ -237,5 +275,8 @@ for transactions, [RAS](https://en.wikipedia.org/wiki/Reliability,_availability_
 We were inspired by them, and we decided to group the list of _-ilities_ that were important for the company into one 
 or more of the categories we already had identified.
 
-On the next entry of this series, we will introduce an evolved version of this framework and a comparision matrix for 
-the company and how that comparision matrix is useful to the teams.
+In the [next entry of this series](/software engineering/simple-strategies-to-manage-techdebt-part-2/), we will
+introduce an evolved version of this framework by further defining and grouping those _illities_, 
+while in the [last entry of this series](/software engineering/simple-strategies-to-manage-techdebt-part-3/) we will
+dive deeper by using it to help not only the teams but also the company to make better decisions, react to 
+changes and reach its goals.

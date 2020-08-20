@@ -12,13 +12,33 @@ tags:
     - software architecture
     - enterprise architecture
     - technical debt
-    - techdebt
 header:
-    teaser:        /assets/images/posts/simple-strategies-to-manage-techdebt/alice-pasqual-Olki5QpHxts-unsplash-hdpi.jpg
-    overlay_image: /assets/images/posts/simple-strategies-to-manage-techdebt/ruth-enyedi-zuwx2tvI_iM-unsplash-xxhdpi.jpg
-    overlay_filter: 0
+    teaser: /assets/images/posts/simple-strategies-to-manage-techdebt/kat-yukawa-K0E6E0a0R3A-unsplash-hdpi.jpg
+    overlay_image: /assets/images/posts/simple-strategies-to-manage-techdebt/kat-yukawa-K0E6E0a0R3A-unsplash-xxhdpi.jpg
+    overlay_filter: 0.50
 classes: wide
-
+feature-row:
+  - image_path: /assets/images/posts/simple-strategies-to-manage-techdebt/alice-pasqual-Olki5QpHxts-unsplash-hdpi.jpg
+    excerpt: >-
+        Why teams struggle with technical debt. Technical debt definition adapted to modern
+        times. Introduction to a simple framework to classify and see technical debt impact in a team.
+    url: "/software engineering/simple-strategies-to-manage-techdebt-part-1/"
+    btn_label: "Part 1"
+    btn_class: "btn--primary"
+  - image_path: "/assets/images/posts/simple-strategies-to-manage-techdebt/kat-yukawa-K0E6E0a0R3A-unsplash-hdpi.jpg"
+    excerpt: >-
+        Evolve the simple framework by using industry standard definitions, like the sofware architecture _illities_.
+        Explain by example and group them on predefined categories.
+    url: "/software engineering/simple-strategies-to-manage-techdebt-part-2/#recap"
+    btn_label: "Keep Reading!"
+    btn_class: "btn--primary"
+  - image_path: "/assets/images/posts/simple-strategies-to-manage-techdebt/sydney-rae-geM5lzDj4Iw-unsplash-hdpi.jpg"
+    excerpt: >-
+        Standardize metrics, language and communication to allow company wide alignment and high level planning.
+        Examples of how this framework can be used across different teams.
+    url: "/software engineering/simple-strategies-to-manage-techdebt-part-3/"
+    btn_label: "Part 3"
+    btn_class: "btn--primary"
 gallery1:
   - url: /assets/images/posts/simple-strategies-to-manage-techdebt/tech-debt-1.jpg
     image_path: /assets/images/posts/simple-strategies-to-manage-techdebt/tech-debt-1.jpg
@@ -36,6 +56,9 @@ gallery1:
     title: "We could see the impact from each category easily and this drove us towards the matrix in the next part of this series."
     alt: "Previous image deriving the impact from each category: Company Strategy, Bugs/Production problems and Time to Market"
 ---
+> Three series article about how to manage technical debt in a simple and fun way. 
+
+{% include feature_row id="feature-row" %}
 
 # Recap
 
@@ -71,3 +94,8 @@ TODO: Rabani talks about techdebt beint a _slow poison_ (evolve around this idea
 ### Conclusion
 TODO: Lore ipsum...
 ```
+
+On the [last entry of this series](/software engineering/simple-strategies-to-manage-techdebt-part-3/), we will see how
+using this framework we could standarize metrics, enabling the company to define new goals or helping it to better reach
+them, improving reaction times to changes, and helping teams by reinforcing them with specialists on their struggling
+technical debt items.
