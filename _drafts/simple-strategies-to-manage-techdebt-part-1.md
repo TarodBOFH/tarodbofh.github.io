@@ -55,9 +55,10 @@ gallery1:
 
 # Introduction
 
-Recently I had a meeting to share ideas about how to help a team (engineering and product owners alike) not only aware
-of the importance of their tech-debt but also how to take ownership of it. For some reasons, this team had heavy
-rotation, and the engineers did not find a way to remove their pain points during their sprints.
+Recently, I had a meeting with a team to share ideas about how they (engineering and product owners alike) could raise 
+awareness of the importance of their tech-debt, but also how to take ownership of it.
+For some reasons, this team had heavy rotation, and the engineers did not find a way to remove or tackle their pain
+points during their sprints.
 
 Working with some team members, we had already identified some items in various repositories and services, but we had 
 not been able to onboard everyone in the importance of them. For example, there were some _code smells_, some 
@@ -67,11 +68,14 @@ technical debt.
 The most senior or historic engineers on the team did not notice lack of documentation or tests as technical debt
 (after all they were the technical experts and owners of the repositories), but the product owners were seeing some 
 slowness onboarding new engineers on the team.
-On the other hand, the product owners were not aware of some technical deficiencies (or if they were they thought they 
-had no impact at all), but the engineers were not happy with some old tools, libraries and patterns used.
+On the other hand, the product owners had not noticed some technical deficiencies (or if they were they thought there 
+was almost no impact) as technical debt, but the engineers were not happy with some old tools, libraries and patterns
+used.
 
-Although when written as above it might be clear a relationship exists between the pairs, it needed an external feedback
-to make the whole team aware of it.
+Although when reading above examples it might be clear a relationship exists between the pairs, it needed an external 
+feedback to make the whole team aware of it.
+It was not a problem of communication between engineers and product owners, it was just that they were not able to align
+themselves nor see the impacts of each other worries or the relation with parts of their code.
 
 So we gathered together again, this time hands-on to try to find the best approach to the problems they were facing:
 
@@ -101,12 +105,16 @@ We identified some of them (and left some for the next iterations):
         Not using platform tools, Testing, Documentation, and Code Smells"  
 %}
 
-Once we got some working examples, we could extract common information from them, this is trying to _classify_ them.
+We intentionally left some stuff aside as at this point as we already began to discuss that some pain points were
+consequence of others; for example, _slow onboarding_ was a direct consequence of _not having good enough documentation_.
 
-In order classify something, you need a criterion. Our criteria were not clear at that moment but became clearer when 
-we saw the impacts, much later on. At this stage we saw some _**"architectural deficiencies"**_, some _**"things related
-to production"**_ and finally other _stuff_ related to _**"how fast and happy the team was"**_ while working on certain
-repositories.
+We decided to follow that line of though (consequences and impacts) later on, focusing at that moment on extracting
+common information from our items, that is grouping or classifying them.
+
+In order classify something, you need a criterion. Our criteria were not clear then but became clearer when 
+we saw the impacts, much later on. At this stage we just tried to group it, and we saw some 
+_**"architectural deficiencies"**_, some _**"things related to production"**_ and finally other _stuff_ related to 
+_**"how fast and happy the team was"**_ while working on certain repositories.
 
 We used the initials `A`, `O` and `S` to tag our items:
 
@@ -129,35 +137,38 @@ Effectively, how we were categorizing an item told us about its impact.
 
 # Retrospective
 
-This very first iteration was so powerful. We were really happy, as this gave us great insights but also offered 
-opportunities to establish some tech-debt goals within the Team. The team could focus on specific _themes_ according to 
-the upcoming user stories and thus was a great way to align everyone, from product to engineering into dealing with 
-tech-debt.
+This very first iteration was so powerful! We were really happy, as this gave us great insights but also offered 
+opportunities to establish some technical debt goals within the team. We could focus on specific _themes_ (using the 
+impact) according to the upcoming user stories and thus was a great way to align everyone, from product to engineering, 
+into dealing with technical debt.
 
-We did a small retrospective, and we all agreed that while powerful to raise awareness we could exploit more if we moved
-deeper on the framework we were creating.
+We did a small retrospective, and we all agreed that while it was powerful to raise awareness, we could exploit more if 
+we dug deeper on the framework we were creating.
 
 # Some examples
 
-Let's say there are new features involving integrating with third parties that will consume our fancy new API that was 
-just built in a hurry for a PoC in the next Quarter. We had identified some tech debt related to speed on that part of 
+Let's say there are new features involving integrating with third parties that will consume our fancy new API, that was 
+just built in a hurry for a PoC, in the next quarter. We had identified some tech debt related to speed on that part of 
 the codebase, like not enough tests, documentation,  or some code that needs refactor because it was just a PoC.
 We know that this will impact the time to market, so we can anticipate and just focus as technical goal for the sprints 
-to "improve the time to market for new API features" before we start working on the stories.
+to "improve the time to market for new API features" while working on the user stories. Focusing only on that goal (for 
+example omitting any big architectural refactor) we could tackle our codebase at the same time we were delivering new 
+value.
 
-Or maybe we are expecting a peak in our services because some Company OKRs (go sales, :moneybag: go!), 
+Maybe our Company is expecting a peak in our # of requests because of some sales goals (go sales, :moneybag: go!), 
 and we need to focus on improving our operations stuff, like monitoring, scaling or making the jobs resilient and 
-parallelizable.
+parallelizable. This way, we could introduce technical parts to the user stories (for example, the big architectural
+refactor that we omitted before) that were aligned with the company goals or certain user stories.
 
 # Technical Debt
 
 ## What is Technical Debt
 
-How do we know that something is techdebt? Because we are afraid to work on it (for several reasons) or because it
-hinders product development not being able to achieve the speed we want (for several reasons... again). Or maybe because 
-it breaks too much or because it is not aligned with the company strategies (yes, for several reasons).
+How do we know that something is technical debt? Because we are afraid to work on it. Or because it hinders product 
+development by not being able to achieve the speed we want. Or maybe because it breaks too much. Or it is not aligned with
+the company strategies...
 
-Sounds familiar? Basically is what the second point above glimpses: Team Speed Stuff, Operations Stuff and Architecture 
+Sounds familiar? Basically is what the second image above glimpses: Team Speed Stuff, Operations Stuff and Architecture 
 Stuff. In other words:
 
 - Techdebt doesn't allow product owners to deliver features at the speed they want: **It slows development teams**
@@ -165,6 +176,8 @@ Stuff. In other words:
   experts): **it is not aligned with company strategies**
 - Techdebt is also present when some products break _too_ often or even don't work as expected: **products already 
   running in the company that have a high operational cost**
+  
+Basically, it is a slow poison, draining resources from the company or increasing the cost to deliver new value.
 
 **What is the formal definition?**
 
@@ -188,31 +201,34 @@ At this point we could use one of the wide known definitions of tech debt, but w
 Simply, because software engineering as evolved **a lot** since the first of those definitions were introduced back 
 in 1992 by [Ward Cunningham](https://github.com/WardCunningham/remodeling "Github repository from Ward Cunningham about remodeling").
 
-Now we use infrastructure as a code, microservices architecture, CI/CD, agile philosophy and evolved technology stacks, 
+Now we use infrastructure as a code, microservices architecture, CI/CD, agile philosophy, and evolved technology stacks, 
 some of which were born just a couple of years ago and give a competitive advantage over old ones.
 
-We have seen stacks raise and die since then and using those dead stacks were not considered tech-debt at that time. 
+We have seen stacks raise and die since then, and using those dead stacks was not considered technical debt at the time,
+they were _state of the art_. 
 We consider that anything in engineering that induces a cost for the company to grow, deliver or build new features is 
 technical debt, be it new developments or things already in production.
-From architecture to code to culture and training.
+From architecture to code but also, culture and training.
+
+The above definitions define technical debt when the software is created, not when the environment changes.
 
 This was our amendment to the classic technical debt definitions:
-> We do not consider technical debt only stuff made consciously, but also stuff made some time ago which needs
+> We do not consider technical debt only stuff made consciously, but also things made some time ago which needs
 > reconsideration based on **current** software engineering standards, tools and technology, 
 > but also on **updated company strategy and needs**.
 
 This updated definition helped us to revisit our projects periodically to make sure they are aligned with company
 strategy but also helps us to deprecate things we are going to evolve when their stacks become obsolete.
 
-## How is technical debt born
+## How technical debt is born
 
 Technical debt is not only born in the code. This is one of the biggest mistakes thar startups make when thinking about 
 it but also happens on established companies. According our definition above it can be born different ways.
 
-Let's explore some example: 
+Let's explore some examples: 
 
 - A stakeholder meeting establishing a plan for the company to duplicate clients or traffic will spawn
-a bunch of tech-debt items to optimize performance, allow scalability or other evolutions that are needed to achieve 
+a bunch of technical debt items to optimize performance, allow scalability or other evolutions that are needed to achieve 
 that goal. Specially if scalability was not important for some services previously, and thus their architecture was not 
 focused on that.
 - Our company is not yet ready to fully automated CI/CD pipelines, and we have some manual QA testing, and some
@@ -254,6 +270,10 @@ As a recap, these are five examples of technical debt appears:
  - During development, by mistake (i.e. losing one or more of our software qualities)
  - Because new needs / company goals turns something into not-ideal / not good enough / not aligned
  - Because new tools / technology / patterns emerge that solves problems in a different and more efficient way
+ 
+We never consider our bugs technical debt items (unless they become a [feature](https://www.wired.com/story/its-not-a-bug-its-a-feature/)),
+but we might consider third party bugs, problems or missing features and other external things that we might need invest
+time into as technical debt if left unattended.
 
 # The second iteration
 
