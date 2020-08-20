@@ -63,6 +63,7 @@ Working with some team members, we had already identified some items in various 
 not been able to onboard everyone in the importance of them. For example, there were some _code smells_, some 
 services had tons _legacy code_ (with few tests or no documentation) and other stuff that usually is considered
 technical debt.
+
 The most senior or historic engineers on the team did not notice lack of documentation or tests as technical debt
 (after all they were the technical experts and owners of the repositories), but the product owners were seeing some 
 slowness onboarding new engineers on the team.
