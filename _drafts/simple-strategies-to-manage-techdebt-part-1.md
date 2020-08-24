@@ -29,8 +29,8 @@ feature-row:
     btn_class: "btn--primary"
   - image_path: "/assets/images/posts/simple-strategies-to-manage-techdebt/kat-yukawa-K0E6E0a0R3A-unsplash-hdpi.jpg"
     excerpt: >-
-        Evolve the simple framework by using industry standard definitions, like the sofware architecture _illities_.
-        Explain by example and group them on predefined categories.
+        We will evolve the simple framework by using industry standard definitions, like the sofware architecture _illities_
+        and explaining by example, grouping them on predefined categories.
     url: "/software engineering/simple-strategies-to-manage-techdebt-part-2/"
     btn_label: "Part 2"
     btn_class: "btn--primary"
