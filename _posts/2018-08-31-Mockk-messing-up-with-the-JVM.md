@@ -5,7 +5,7 @@ date: 2018-08-31
 excerpt: 'Ok, this is a story with a happy beginning. Or ending. Or both.'
 header:
     teaser: /assets/images/posts/Mockk-messing-up-with-the-JVM/benedikt-geyer-dlly2pZoKEg-unsplash-hdpi.jpg
-    overlay_image: /assets/images/posts/Mockk-messing-up-with-the-JVM/1*n9IGmMwkGdl4OGdIQpqWdQ.jpeg
+    overlay_image: /assets/images/posts/Mockk-messing-up-with-the-JVM/1_n9IGmMwkGdl4OGdIQpqWdQ.jpeg
     overlay_filter: 0.75
 classes: wide
 categories:

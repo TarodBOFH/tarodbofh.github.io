@@ -23,7 +23,7 @@ tags:
   
 gallery1:
   - image_path: ""
-  - image_path: /assets/images/posts/JUnit-5-unit-testing-with-Kotlin/1*p2nPxZvpyV8sI6Ynh6V6EA.png
+  - image_path: /assets/images/posts/JUnit-5-unit-testing-with-Kotlin/1_p2nPxZvpyV8sI6Ynh6V6EA.png
     alt: "Image showing the result of running parameterized tests on junit jupiter inside IntelliJ"
     title: "JUnit 5 IntelliJ output"
   - image_path: ""  
