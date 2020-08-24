@@ -31,7 +31,7 @@ docker build -t jekyll-dev . && docker run --rm -p 4000:4000 -v $(pwd):/srv/jeky
 
 PowerShell:
 ```powershell
-docker build -t jekyll-dev . && docker run --rm -p 4000:4000 -v ${PWD}:/srv/jekyll jekyll-dev
+docker build -t jekyll-dev . ; docker run --rm -p 4000:4000 -v ${PWD}:/srv/jekyll jekyll-dev
 ```
 
 Then navigate to `localhost:4000` and you should be able to see the static website.
