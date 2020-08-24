@@ -105,7 +105,7 @@ We identified some of them (and left some for the next iterations):
         Not using platform tools, Testing, Documentation, and Code Smells"  
 %}
 
-We intentionally left some stuff aside as at this point as we already began to discuss that some pain points were
+We intentionally left some stuff aside as at this point we already began to discuss that some pain points were
 consequence of others; for example, _slow onboarding_ was a direct consequence of _not having good enough documentation_.
 
 We decided to follow that line of though (consequences and impacts) later on, focusing at that moment on extracting
