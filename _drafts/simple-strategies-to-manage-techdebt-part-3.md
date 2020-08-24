@@ -3,7 +3,7 @@ template: post
 title: "Strategies to manage Technical Debt - Part 3"
 excerpt: >- 
     Sometimes teams struggle to identify which technical debt items are worth investing into or how to align them to 
-    company goals. In the last part we will standarize our framework to enable company metrics that help us to make
+    company goals. In the last part we will standardize our framework to enable company metrics that help us to make
     better decisions.
 toc: false
 toc_sticky: true

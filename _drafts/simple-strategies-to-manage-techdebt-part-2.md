@@ -3,7 +3,7 @@ template: post
 title: "Strategies to manage Technical Debt - Part 2"
 excerpt: >- 
     Sometimes teams struggle to identify which technical debt items are worth investing into or how to align them to 
-    company goals. In this 2nd part we will explore a techdebt matrix to help the teams align with company goals.
+    company goals. In this second part we will explore a techdebt matrix to help the teams align with company goals.
 toc: false
 toc_sticky: true
 categories:
