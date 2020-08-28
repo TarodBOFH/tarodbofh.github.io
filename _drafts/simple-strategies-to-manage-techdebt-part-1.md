@@ -272,7 +272,7 @@ As a recap, these are five examples of technical debt appears:
  - Because new tools / technology / patterns emerge that solves problems in a different and more efficient way
  
 We never consider our bugs technical debt items (unless they become a [feature](https://www.wired.com/story/its-not-a-bug-its-a-feature/)),
-but we might consider third party bugs, problems or missing features and other external things that we might needto invest
+but we might consider third party bugs, problems or missing features and other external things that we might need to invest
 time into as technical debt if left unattended.
 
 # The second iteration
