@@ -31,16 +31,16 @@ feature-row:
     excerpt: >-
         We will evolve the simple framework by using industry standard definitions, like the sofware architecture _illities_
         and explaining by example, grouping them on predefined categories.
-    url: "/software engineering/simple-strategies-to-manage-techdebt-part-2/"
-    btn_label: "Part 2"
-    btn_class: "btn--primary"
+    url: ""
+    btn_label: "Part 2 (coming soon!)"
+    btn_class: "btn--disabled"
   - image_path: "/assets/images/posts/simple-strategies-to-manage-techdebt/sydney-rae-geM5lzDj4Iw-unsplash-hdpi.jpg"
     excerpt: >-
         Standardize metrics, language and communication to allow company wide alignment and high level planning.
         Examples of how this framework can be used across different teams.
-    url: "/software engineering/simple-strategies-to-manage-techdebt-part-3/"
-    btn_label: "Part 3"
-    btn_class: "btn--primary"
+    url: ""
+    btn_label: "Part 3 (coming soon!)"
+    btn_class: "btn--disabled"
 gallery1:
   - image_path: ""
   - url: /assets/images/unsplash-gallery-image-2.jpg
@@ -296,8 +296,8 @@ for transactions, [RAS](https://en.wikipedia.org/wiki/Reliability,_availability_
 We were inspired by them, and we decided to group the list of _-ilities_ that were important for the company into one 
 or more of the categories we already had identified.
 
-In the [next entry of this series](/software engineering/simple-strategies-to-manage-techdebt-part-2/), we will
+In the next entry of this series, we will
 introduce an evolved version of this framework by further defining and grouping those _illities_, 
-while in the [last entry of this series](/software engineering/simple-strategies-to-manage-techdebt-part-3/) we will
+while in the last entry of this series we will
 dive deeper by using it to help not only the teams but also the company to make better decisions, to react to 
 changes and to reach its goals.

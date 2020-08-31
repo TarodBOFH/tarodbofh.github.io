@@ -1,0 +1,18 @@
+# Ignore non docker folders during build context
+.idea
+_drafts
+_includes
+_pages
+_posts
+_site
+assets
+
+# Ignore unneeded files for docker build
+_config.yml
+.gitignore
+CNAME
+favicon.ico
+Gemfile*
+index.html
+LICENSE
+README.md
