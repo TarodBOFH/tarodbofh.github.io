@@ -41,8 +41,7 @@ softskills = {
     leadership, 
     mentoring,
     coaching,
-    thinking,
-    investigating,
+    growth mindset,
     delivering
 }
 ```
@@ -94,12 +93,12 @@ Transparency, honesty, ownership and effort.
 I always loved _"who first then what"_, even when looking for new employees as when looking for a new job myself.
 Social Responsibility is always a plus for me, be it company or personal level.
 
-I believe in flexibility (and flexible working hours), mainly because everyone's different and even same individuals 
+I believe in flexibility, mainly because everyone's different and even same individuals 
 are different on different days, but I also think it is important to be available when your team needs you.
 In addition, engineering is a form of craftsmanship which involves creativity, and most of the time you don't really 
 know when the creativity will arrive since it doesn't speak schedules.
 
-I also believe in state of the art, especially with the current pace in our sector.
+I also believe in continuous improvement, especially with the current pace in our sector.
 Research and Innovation is constantly happening but it cannot truly happen if there is no knowledge sharing inside the
 company. I am an agile enthusiast and I love high performing teams.
 
@@ -108,12 +107,11 @@ company. I am an agile enthusiast and I love high performing teams.
 - **Leadership**: Helping teams to grow by offering technical guidance, specifically in my area of expertise
 - **Change Enabler**: Making change to happen, by continuously evaluating philosophy and culture, procedures, technical 
 stack, procedures, best practices, and standards
-- **Learner**: Study, learn, understand and share knowledge from product to engineering.
+- **Growth Mindset**: Study, learn, understand and share knowledge from product to engineering.
 Helping to understand what is the impact of every user story, but also helping to understand product managers the 
 impact of each design decision, architecture model or pattern, or solution.
 - **Speaker**: Participate in seminars, meetups, or brown-bags and encourage others to do the same, pushing ourselves
 outside our comfort zone, in order to learn new points of view or technologies.
-- **Efficient time management**, identifying time thieves and being able to plan according.
 
 ## Personal Achievements
 - Scale and migrate upper funnel on [lastminute.com](https://www.linkedin.com/company/lastminute.com/) OTA, evolving 
@@ -124,7 +122,7 @@ voucher codes on a transaction value of [300M USD/year](https://venturebeat.com/
 (Kotlin, Kinesis, Spring Boot, Dropwizard...) becoming Backend Lead Engineer by example in only six months.
 - Understand both technically and functionally the product of an American Startup and, as second spanish employee, 
 transfer the knowledge to a team of 15 engineers in a year. Help to hire and build that team.
-- Build the technology department of a fintec in just a year.
+- Build the technology department of a Fintech in just a year.
 Maintain the off the shelf software inherited and design new ERP and Factoring systems.
 That company grew from transactions valued at [600M/year to 1.2M/year](https://www.expansion.com/empresas/banca/2020/07/18/5f1200ffe5fdeafa038b460e.html).
 - Migrate all infrastructure from on-premise to a hybrid cloud with 40% TCO reduction in only three months.
