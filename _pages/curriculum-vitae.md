@@ -84,7 +84,7 @@ June 2019
 
 <div class="notice" markdown="1">
 ### <b>Architect | Coach</b> @ Hiberus Tecnología
-<i>December 2015 - March 2015</i>
+<i>December 2015 - March 2016</i>
 ```
 - Build QA Department
   - CI Culture, Pipelines (jenkins)
