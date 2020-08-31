@@ -301,3 +301,5 @@ introduce an evolved version of this framework by further defining and grouping 
 while in the last entry of this series we will
 dive deeper by using it to help not only the teams but also the company to make better decisions, to react to 
 changes and to reach its goals.
+
+> This post could not have been possible without some [awesome coworkers](https://www.linkedin.com/in/m%C3%B3nica-bartolom%C3%A9-9433686/)
