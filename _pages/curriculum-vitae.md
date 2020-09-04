@@ -7,13 +7,12 @@ toc_label: "Jump to..."
 toc_icon: "rocket"
 intro:
   - image_path: /
-    excerpt: Don't forget to check my intro.
+    excerpt: Don't forget to check   
     url: "/about/"
-    btn_label: "Read more!"
+    btn_label: "my intro!"
     btn_class: "btn--primary"
 ---
-> Don't forget to check my intro!
-[Read More!](/about/){: .btn .btn--info }
+> Don't forget to check [my intro!](/about/)
 
 ## Employment History
 

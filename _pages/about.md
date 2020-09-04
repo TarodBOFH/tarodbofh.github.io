@@ -142,4 +142,4 @@ If you think I can help you and you have read almost all above, then just contac
 well and it's possible we can find a way to collaborate. There are links to my social profiles at [the bottom](#footer)!
 
 # CV
-> Navigate through my online Curriculum Vitae [here](/curriculum-vitae/){: .btn .btn--info}
+> Navigate through my online &nbsp;[Curriculum Vitae](/curriculum-vitae/)
