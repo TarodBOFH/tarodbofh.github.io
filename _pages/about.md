@@ -118,7 +118,7 @@ outside our comfort zone, in order to learn new points of view or technologies.
 the service architecture into a domain based microservice cloud-ready architecture.
 - Payment Gateway Lead engineer (e-Wallet) at Returnly, enabling the company to remove dependency on gift cards and 
 voucher codes on a transaction value of [300M USD/year](https://venturebeat.com/2019/01/30/returnly-raises-8-million-to-streamline-customer-returns/)
-- Learn a new [stack]{% post_url 2018-08-22-So-how-is-it-working-at-a-Silicon-Valley-startup---from-an-Spaniard-point-of-view %} 
+- Learn a new [stack]({% post_url 2018-08-22-So-how-is-it-working-at-a-Silicon-Valley-startup---from-an-Spaniard-point-of-view %}) 
 (Kotlin, Kinesis, Spring Boot, Dropwizard...) becoming Backend Lead Engineer by example in only six months.
 - Understand both technically and functionally the product of an American Startup and, as second spanish employee, 
 transfer the knowledge to a team of 15 engineers in a year. Help to hire and build that team.
