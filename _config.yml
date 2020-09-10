@@ -72,9 +72,6 @@ author:
   avatar : "/assets/images/juan-ara.jpg"
   bio    : "Hi there! I'm a senior software engineer, back-end technical lead and architect in Madrid, working at lastminute.com. Loving gaming and motorbikes. Writing software since I was 9. Since 1987 ;-)"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.cornerinthemiddle.com/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/juanara"

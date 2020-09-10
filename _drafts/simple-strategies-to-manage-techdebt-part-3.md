@@ -91,6 +91,19 @@ TODO: Move people within teams, help with hiring decisions, reinforce teams with
 
 TODO: Rabani talks about techdebt beint a _slow poison_ (evolve around this idea)
 
+TODO: Rebecca Parsons and Neal Ford "Fitness Function"
+```
+- Everyone on this call will agree on what is "good code", but there is not a right architecture. 
+What you need to optimize in a particular architecture changes wildly over time.
+There is where the fitness function for Evolutionary Architecture comes into play
+- For ones, scalability is key, for others, throughput, etc. But you cannot maximize all of those 
+"architectural features" at once, so then you decide how your fitness function will look (what is important on your 
+current company) and implement a way to measure it.
+```
+
+Evolve the idea around the fitness function, how to automate it and how changing the fitness function will reveal 
+problems when ran again on codebases, allowing us to react to company needs overtime. 
+
 ### Conclusion
 TODO: Lore ipsum...
 TODO: Why fun way
