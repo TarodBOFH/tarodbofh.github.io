@@ -188,7 +188,7 @@ June 2019
 <div class="notice" markdown="1">
 - Music Teacher (2008-2014)
 - Mentor at [Master FPlaB](https://www.enlaultimafila.org/) (2018)
-- Speaker on several [talks](http://matchboxtalks.es/) on high schools thanks to [Fundación ExE](http://programaexe.org/)
+- Speaker on several [talks](https://www.youtube.com/watch?v=czqYQ5Ot5_o) on high schools thanks to [Fundación ExE](http://programaexe.org/)
 - Speaker on meetups / trainings about about Time Management and [Blockchain](https://www.eventbrite.es/e/entradas-te-contamos-los-secretos-de-blockchain-46440644217#)
 in The Venture City (Madrid, Miami) and Returnly (San Francisco)
 </div>
