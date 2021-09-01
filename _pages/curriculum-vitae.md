@@ -17,7 +17,7 @@ intro:
 ## Employment History
 
 <div class="notice--info" markdown="1">
-### Lead Backend Architect | Mentor | Coach @ Madrid dev hub - lastminute.com
+### Senior Engineering Manager @ Madrid dev hub - Klarna
 August 2021
 ```
 - Competence Lead for AML & CTF Screening
