@@ -18,7 +18,17 @@ intro:
 
 <div class="notice--info" markdown="1">
 ### Lead Backend Architect | Mentor | Coach @ Madrid dev hub - lastminute.com
-June 2019
+August 2021
+```
+- Competence Lead for AML & CTF Screening
+- Senior Engineering Manager
+- Still discovering my competences. Start small and learn fast ;)
+```
+</div>
+
+<div class="notice--primary" markdown="1">
+### Lead Backend Architect | Mentor | Coach @ Madrid dev hub - lastminute.com
+<i>June 2019 - August 2021</i>
 ```
 - Agile Coach
 - Lead Backend Architect
