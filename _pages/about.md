@@ -32,6 +32,7 @@ architecture = {
     event-driven, 
     event-sourcing, 
     datavault, 
+    ddd,
     cqrs
 }
 
@@ -83,8 +84,8 @@ world!) and I have donated part of my time the last four or five years collabora
 education, be it as speaker on universities / high schools or as coach and mentor on specific projects.
 
 ## What do I do
-I have been a CTO, Lead Architect, Lead Engineer, Tech Lead, Coach and Mentor. I'm always hands on with the code and I
-work near the product teams.
+I have been a CTO, Senior Engineering Manager, Lead Architect, Lead Engineer, Tech Lead, Coach and Mentor.
+I'm always hands on with the code and I work near the product teams.
 
 ## What do I like
 
