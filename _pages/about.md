@@ -114,6 +114,10 @@ impact of each design decision, architecture model or pattern, or solution.
 outside our comfort zone, in order to learn new points of view or technologies.
 
 ## Personal Achievements
+- Transform a team coming from toxic experiences from 3 engineers +2 consultants to three high performing teams (7+7+2) (+90 impulse survey)
+- Define the next generation architecture for the real time screening backbone in Klarna, getting ready for
+  next peak season. The limits of the legacy architecture were already met the previous peak season
+- Become the most loved bar raiser in Madrid Engineering pipeline, focused in Candidate Experience.
 - Scale and migrate upper funnel on [lastminute.com](https://www.linkedin.com/company/lastminute.com/) OTA, evolving 
 the service architecture into a domain based microservice cloud-ready architecture.
 - Payment Gateway Lead engineer (e-Wallet) at Returnly, enabling the company to remove dependency on gift cards and 
