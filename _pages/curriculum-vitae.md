@@ -22,7 +22,12 @@ August 2021
 ```
 - Competence Lead for AML & CTF Screening
 - Senior Engineering Manager
-- Still discovering my competences. Start small and learn fast ;)
+- Transform a team coming from bad experiences from 3 engineers +2 consultants to three teams (7+7+2)
+- Define the next generation architecture for the real time screening backbone in Klarna, getting ready for
+next peak season. The limits of the legacy architecture were already met the previous peak season
+- Participate and evolve Madrid Engineering hiring pipeline, focusing on candidate experience and training
+other interviewers
+- Define KPIs and culture for the whole domain engineering team
 ```
 </div>
 
