@@ -17,7 +17,7 @@ engineering {
         spring + springboot
     }
     monitoring {
-        grafana, prometheus, graphite
+        grafana, prometheus, graphite, datadog, sleuth
     }
 }
 
@@ -36,14 +36,14 @@ architecture = {
     cqrs
 }
 
-ci/cd = { buildkite, spinaker, jenkins, 'github actions' }
+ci/cd = { buildkite, spinaker, jenkins, 'github actions', 'gitlab-ci' }
 
 softskills = { 
     leadership, 
     mentoring,
     coaching,
     growth mindset,
-    delivering
+    execution
 }
 ```
 
