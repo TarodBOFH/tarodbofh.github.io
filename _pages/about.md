@@ -8,7 +8,7 @@ toc_icon: "rocket"
 ---
 # TLDR;>
 
-## backend \| architect \| coach
+## engineering manager \| backend \| architect \| coach
 ```
 engineering {
     kotlin.also {
