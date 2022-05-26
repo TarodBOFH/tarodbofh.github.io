@@ -22,12 +22,16 @@ August 2021
 ```
 - Competence Lead for AML & CTF Screening
 - Senior Engineering Manager
-- Transform a team coming from bad experiences from 3 engineers +2 consultants to three teams (7+7+2)
-- Define the next generation architecture for the real time screening backbone in Klarna, getting ready for
-next peak season. The limits of the legacy architecture were already met the previous peak season
-- Participate and evolve Madrid Engineering hiring pipeline, focusing on candidate experience and training
-other interviewers
-- Define KPIs and culture for the whole domain engineering team
+- Transform a team coming from bad experiences from 3+2 to 7+7+2
+- Define the next generation architecture for real time AML & CTF screening in Klarna:
+  - Getting ready for next peak season (limits reached previous peak season) 
+  - Cost-effective solution for screening & re-screening
+  - Cloud Native & highly scalable
+- Participate and evolve Madrid Engineering hiring pipeline, focusing on 
+  - Candidate experience 
+  - Training and coaching of interviewers
+  - Process definition
+- Define KPIs and culture for the whole AML & CTF domain engineering team
 ```
 </div>
 
