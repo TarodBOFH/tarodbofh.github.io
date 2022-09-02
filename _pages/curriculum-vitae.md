@@ -17,8 +17,21 @@ intro:
 ## Employment History
 
 <div class="notice--info" markdown="1">
+### Senior Engineering Manager @ Madrid dev hub - Mercadona Online
+June 2022
+```
+- Senior Engineering Manager Delivery Tribe
+  - Acting Team Lead Delivery - Hive 
+  - Build & Scale a high performing team to manage routing of more than 100k orders per month 
+- Site Owner Engineering Hub Madrid
+  - Develop company culture
+  - Hire & Growth the best
+  - Understand and safeguard the company values
+```
+
+<div class="notice--primary" markdown="1">
 ### Senior Engineering Manager @ Madrid dev hub - Klarna
-August 2021
+<i>August 2021 - August 2022</i>
 ```
 - Competence Lead for AML & CTF Screening
 - Senior Engineering Manager
