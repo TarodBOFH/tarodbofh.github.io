@@ -137,7 +137,7 @@ Lead the project in EMEA to manage more than 15000 identities in 15 countries. R
 - Define and develop BI solutions for annual sales reports on a franchising company..
 - Learn GIS and build the team that became the most important one in a small aragonese software company that became 
 invited as speakers to ESRI conferences.
-- Collaborate on some open source projects (jasperreports, struts-shale, minimal-mistakes jekyll theme...)
+- Collaborate on some open source projects ([flyway](https://flywaydb.org/documentation/contribute/hallOfFame), jasperreports, struts-shale, minimal-mistakes jekyll theme...)
 
 ## Hard Skills
 - See [above](#tldr), browse my [Curriculum Vitae](/curriculum-vitae/) or contact me on social media.
