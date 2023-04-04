@@ -12,3 +12,6 @@ Gemfile.lock
 
 # GIMP Temp files on assets
 *.*~
+
+# VSCode
+tarodbofh.github.io.code-workspace
