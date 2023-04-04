@@ -37,7 +37,7 @@ January 2023
 
 <div class="notice--primary" markdown="1">
 ### Senior Engineering Manager @ Madrid dev hub - Mercadona Online
-June 2022
+June 2022 - December 2022
 ```
 - Senior Engineering Manager Delivery Tribe
   - Acting Team Lead Delivery - Hive 
