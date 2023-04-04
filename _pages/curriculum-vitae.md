@@ -20,14 +20,16 @@ intro:
 ### Senior Engineering Manager - Cabify
 January 2023
 ```
-- Senior Engineering Manager Rider Mobility Team
-  - Manage team in charge of Cabify's rider app
+- Senior Engineering Manager @ Rider Mobility Team
+  - Manage team in charge of Cabify's Rider App 
+    - BFF & Native Apps
+    - Other internal Apps and Services
   - Help ~10 engineers to be the best version of themselves
     - 1:1s and tech pairing sessions
     - Objectives plan, setting up expectations and follow ups
     - Promo cases
-    - ... 
-  - Help Senior Engineers with architecture and DDD patters and concepts
+    - Challenging conversations... 
+  - Help Senior Engineers with architecture and DDD pattens and concepts
   - Company culture, principals and values advocate
   - Hire & Develop Engineering roles
 ```
