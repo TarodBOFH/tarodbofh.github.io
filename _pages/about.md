@@ -49,13 +49,13 @@ softskills = {
 
 ## Learning \| Trying
 ```
+elixir
+golang
 lua
 k8s
 ktor
 ruby
 jekyll
-unity
-raspberry pi
 ```
 
 # Cover Letter
@@ -115,7 +115,7 @@ impact of each design decision, architecture model or pattern, or solution.
 outside our comfort zone, in order to learn new points of view or technologies.
 
 ## Personal Achievements
-- Transform a team coming from toxic experiences from 3 engineers +2 consultants to three high performing teams (7+7+2) (+90 impulse survey)
+- Transform a team coming from toxic experiences from 3 engineers +2 consultants to three high performing teams (7+7+2) (+90 pulse survey)
 - Define the next generation architecture for the real time screening backbone in Klarna, getting ready for
   next peak season. The limits of the legacy architecture were already met the previous peak season
 - Become the most loved bar raiser in Madrid Engineering pipeline, focused in Candidate Experience.

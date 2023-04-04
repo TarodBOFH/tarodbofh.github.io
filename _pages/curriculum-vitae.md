@@ -17,6 +17,23 @@ intro:
 ## Employment History
 
 <div class="notice--info" markdown="1">
+### Senior Engineering Manager - Cabify
+January 2023
+```
+- Senior Engineering Manager Rider Mobility Team
+  - Manage team in charge of Cabify's rider app
+  - Help ~10 engineers to be the best version of themselves
+    - 1:1s and tech pairing sessions
+    - Objectives plan, setting up expectations and follow ups
+    - Promo cases
+    - ... 
+  - Help Senior Engineers with architecture and DDD patters and concepts
+  - Company culture, principals and values advocate
+  - Hire & Develop Engineering roles
+```
+</div>
+
+<div class="notice--primary" markdown="1">
 ### Senior Engineering Manager @ Madrid dev hub - Mercadona Online
 June 2022
 ```
@@ -28,6 +45,7 @@ June 2022
   - Hire & Growth the best
   - Understand and safeguard the company values
 ```
+</div>
 
 <div class="notice--primary" markdown="1">
 ### Senior Engineering Manager @ Madrid dev hub - Klarna
