@@ -70,7 +70,7 @@ plugins:
 author:
   name   : "Juan Ara"
   avatar : "/assets/images/juan-ara.jpg"
-  bio    : "I've been a senior software engineer, back-end techlead and lead architect in Madrid. Now I'm Senior Engineering Manager working at Cabify. Loving gaming and motorbikes. Writing software since I was 9. Since 1987 ;-)"
+  bio    : "I've been a senior software engineer, back-end techlead and lead architect in Madrid. Now I'm Software Director working at Openbank. Loving gaming and motorbikes. Writing software since I was 9. Since 1987 ;-)"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"

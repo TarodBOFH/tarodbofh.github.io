@@ -17,11 +17,32 @@ intro:
 ## Employment History
 
 <div class="notice--info" markdown="1">
+### Software Director - Openbank
+January 2023 - April 2024
+```
+- Software Director for Brazil
+  - Manage complete Brazil Openbank solutions
+    - Lead and coach 7 Vertical products
+    - Stakeholder and delivery management
+    - Roadmap negotiations, technical decisions, hiring Manager
+    - People Management
+        - Objectives plan, setting up expectations and follow ups
+        - Promo cases
+        - Challenging conversations... 
+    - Help Senior Engineers with architecture and DDD pattens and concepts
+    - Hire & Develop engineering lead/management roles
+  - As part of the Software Director's group:
+    - Define, implement and monitor Software Director's group processes
+    - Guardian of company culture, principals and values
+```
+</div>
+
+<div class="notice--primary" markdown="1">
 ### Senior Engineering Manager - Cabify
-January 2023
+January 2023 - April 2024
 ```
 - Senior Engineering Manager @ Rider Mobility Team
-  - Manage team in charge of Cabify's Rider App 
+  - Manage team in charge of Cabify's Rider App (14 people)
     - BFF & Native Apps
     - Other internal Apps and Services
   - Help ~10 engineers to be the best version of themselves
