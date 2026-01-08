@@ -62,26 +62,15 @@ jekyll
 
 ## Intro 
 
-My first contact with tech and computers was thanks to my old man, who brought an Amstrad CPC 464 when I was eight years old.
-What he thought was the computer manual ["40 Educational Games for the Amstrad"](http://www.cpcwiki.eu/index.php/40_Educational_Games_for_the_Amstrad_CPC464)
-was actually my first programming experience.
+The Spark: My journey in technology began at eight years old with an Amstrad CPC 464. What my father thought was a manual for " ["40 Educational Games for the Amstrad"](http://www.cpcwiki.eu/index.php/40_Educational_Games_for_the_Amstrad_CPC464)" became my first gateway into programming. That early curiosity defined my career: a drive to break things to understand them and a lack of fear when facing complex systems.
 
-Since then, I have been surrounded by technology, my passion.
-I have been lucky enough to be able to break things, to understand them, to get carried away by my curiosity without being
-afraid.
-I became an analytic person, with ease to quickly understand problems and see their impact and ramifications.
-Because of that, I am usually found near product teams but with a strong technical background to help engineering teams
-to solve problems with the right technology at a given moment.
+Bridging the Gap: Today, that curiosity has evolved into an analytical leadership style. I specialize in bridging the gap between ambitious product roadmaps and high-level engineering execution. I am a technical leader who understands the ramifications of a decision across the entire stack, ensuring we solve the right problems with the right technology at the right time.
 
-As anyone, when I am passionate about something, I get absorbed and I love talking about it.
-In special, science but particularly technology, engineering and space.
-This passion made me during my journey to find time to share my experiences, learnings, take overs or the results of 
-my experiments, be it during informal office talks, on social media (medium, twitter) or meetups.
+Giving Back: I believe leadership is an act of service. Having "packed my backpack" with two decades of experiences and failures, I’ve dedicated the last five years to sharing those lessons. Whether it’s through mentoring at Master FPlaB or speaking at high schools via Fundación ExE, I am committed to the idea that failure is merely a data point for future success. This same philosophy drives how I coach internal engineering teams—fostering a culture of psychological safety where "Bar Raising" is the standard.
 
-I believe that there is a time in life when you have packed enough experiences backpack or above your shoulders that you
-have to share, to help others to learn from our mistakes (or just learning that failure itself is not the end of the 
-world!) and I have donated part of my time the last four or five years collaborating with non profit orgs, focused on
-education, be it as speaker on universities / high schools or as coach and mentor on specific projects.
+My Philosophy: People First. I am a firm believer in the "Who first, then what" principle. I look for diverse environments where transparency, ownership, and social responsibility aren't just posters on a wall but daily practices.
+
+I view engineering as a form of craftsmanship. It requires a balance of rigorous discipline and creative flexibility. My goal as a leader is to build high-performing teams that embrace continuous improvement and knowledge sharing as a competitive advantage. I don’t just build software; I build the teams that build the software.
 
 ## What do I do
 I have been a CTO, Senior Engineering Manager, Lead Architect, Lead Engineer, Tech Lead, Coach and Mentor.
@@ -105,14 +94,34 @@ company. I am an agile enthusiast and I love high performing teams.
 
 ## Soft Skills
 
-- **Leadership**: Helping teams to grow by offering technical guidance, specifically in my area of expertise
-- **Change Enabler**: Making change to happen, by continuously evaluating philosophy and culture, procedures, technical 
-stack, procedures, best practices, and standards
-- **Growth Mindset**: Study, learn, understand and share knowledge from product to engineering.
-Helping to understand what is the impact of every user story, but also helping to understand product managers the 
-impact of each design decision, architecture model or pattern, or solution.
-- **Speaker**: Participate in seminars, meetups, or brown-bags and encourage others to do the same, pushing ourselves
-outside our comfort zone, in order to learn new points of view or technologies.
+- **Servant Leadership & Mentorship**: I focus on building high-trust environments where engineering leads are empowered to own their decisions. I move beyond simple guidance to sponsorship, actively creating career paths and removing organizational blockers so teams can perform at their peak.
+
+- **Organizational Transformation**: I act as a catalyst for systemic change. By continuously auditing culture, technical standards, and delivery procedures, I ensure the organization doesn't just "do agile," but is agile—adapting our philosophy and tech stack to meet evolving business needs.
+
+- **Product-Engineering Alignment**: I bridge the gap between "The What" and "The How." My strength lies in translating complex technical trade-offs into business impact for stakeholders, while ensuring engineering teams understand the "User Why" behind every line of code.
+
+- **Technical Evangelism**: I serve as an ambassador for the company's engineering culture. By speaking at international meetups and seminars, I drive brand awareness that aids in talent acquisition and keeps our teams connected to the latest industry standards and innovations.
+
+## How do I work?
+- People-First Leadership: Radical Candor & Growth
+I move beyond traditional management by practicing Radical Candor—combining personal care with the ability to challenge directly. My best practice is to build "Self-Correcting Teams" through:
+  - Psychological Safety: Establishing an environment where failure is treated as a data point, enabling high-velocity experimentation.
+  - Sponsorship over Mentorship: Actively identifying opportunities for team members to stretch their capabilities and gain visibility, rather than just giving advice.
+
+- The "Engineering Craftsmanship" Standard
+Leadership is about setting the bar for quality without becoming a bottleneck. I implement:
+  - Evolutionary Architecture: Using ADRs (Architecture Decision Records) and RFCs to democratize technical decisions while ensuring long-term maintainability.
+  - DDD as a Common Language: Utilizing Domain-Driven Design to bridge the gap between business requirements and code, ensuring the technical stack reflects the business reality.
+
+- Change Enablement through "Culture-as-Code"
+Change shouldn't be top-down; it should be integrated into the workflow.
+  - Continuous Feedback Loops: Evaluating processes (DORA metrics, developer experience) as regularly as we evaluate the tech stack.
+-   Transparency by Default: Ensuring engineers understand the "Why" behind the roadmap, transforming them from "ticket-takers" into product owners.
+
+- Knowledge Advocacy (The Multiplier Effect)
+I believe a leader's value is measured by the growth of those around them.
+  - Knowledge Liquidity: Implementing internal "Brown Bag" sessions and open-source-style internal contribution models to break down silos.
+  - Public Contribution: Encouraging engineers to speak at meetups and write technical blogs, which serves as both a development tool and a powerful hiring magnet for the company.
 
 ## Personal Achievements
 - Transform a team coming from toxic experiences from 3 engineers +2 consultants to three high performing teams (7+7+2) (+90 pulse survey)

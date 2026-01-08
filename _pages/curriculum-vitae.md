@@ -18,22 +18,22 @@ intro:
 
 <div class="notice--info" markdown="1">
 ### Software Director - Openbank
-January 2023 - April 2024
+April 2024
 ```
-- Software Director for Brazil
-  - Manage complete Brazil Openbank solutions
+- Software Director for Brazil & Chile
+  - Manage complete Santander App solutions
     - Lead and coach 7 Vertical products
     - Stakeholder and delivery management
-    - Roadmap negotiations, technical decisions, hiring Manager
+    - Roadmap negotiations, technical decisions, Hiring Manager
     - People Management
-        - Objectives plan, setting up expectations and follow ups
-        - Promo cases
-        - Challenging conversations... 
-    - Help Senior Engineers with architecture and DDD pattens and concepts
-    - Hire & Develop engineering lead/management roles
+      - Objectives plan, setting up expectations and follow ups
+      - Career progression management
+       - Conflict resolution and performance coaching
+    - Help Senior Engineers with architecture and DDD patterns and concepts
+    - Hiring & Performance Management
   - As part of the Software Director's group:
     - Define, implement and monitor Software Director's group processes
-    - Guardian of company culture, principals and values
+    - Guardian of company culture, principles and values
 ```
 </div>
 
@@ -42,50 +42,35 @@ January 2023 - April 2024
 January 2023 - April 2024
 ```
 - Senior Engineering Manager @ Rider Mobility Team
-  - Manage team in charge of Cabify's Rider App (14 people)
+  - Managed team in charge of Cabify's Rider App (14 people)
     - BFF & Native Apps
     - Other internal Apps and Services
-  - Help ~10 engineers to be the best version of themselves
+  - Helped ~10 engineers to be the best version of themselves
     - 1:1s and tech pairing sessions
     - Objectives plan, setting up expectations and follow ups
-    - Promo cases
-    - Challenging conversations... 
-  - Help Senior Engineers with architecture and DDD pattens and concepts
-  - Company culture, principals and values advocate
-  - Hire & Develop Engineering roles
-```
-</div>
-
-<div class="notice--primary" markdown="1">
-### Senior Engineering Manager @ Madrid dev hub - Mercadona Online
-June 2022 - December 2022
-```
-- Senior Engineering Manager Delivery Tribe
-  - Acting Team Lead Delivery - Hive 
-  - Build & Scale a high performing team to manage routing of more than 100k orders per month 
-- Site Owner Engineering Hub Madrid
-  - Develop company culture
-  - Hire & Growth the best
-  - Understand and safeguard the company values
+    - Performance management and conflict resolution
+  - Helped Senior Engineers with architecture and DDD patterns and concepts
+  - Company culture, principles and values advocate
+  - Hired & Developed Engineering roles
 ```
 </div>
 
 <div class="notice--primary" markdown="1">
 ### Senior Engineering Manager @ Madrid dev hub - Klarna
-<i>August 2021 - August 2022</i>
+<i>August 2021 - Dec 2022</i>
 ```
 - Competence Lead for AML & CTF Screening
 - Senior Engineering Manager
-- Transform a team coming from bad experiences from 3+2 to 7+7+2
-- Define the next generation architecture for real time AML & CTF screening in Klarna:
-  - Getting ready for next peak season (limits reached previous peak season) 
+- Scaled the team from 5 to 16 members, optimizing the ratio of Engineers, QA, and Leads
+- Defined the next generation architecture for real time AML & CTF screening in Klarna:
+  - Getting ready for next peak season (limits reached previous peak season)
   - Cost-effective solution for screening & re-screening
   - Cloud Native & highly scalable
-- Participate and evolve Madrid Engineering hiring pipeline, focusing on 
-  - Candidate experience 
+- Participated in and evolved Madrid Engineering hiring pipeline, focusing on
+  - Candidate experience
   - Training and coaching of interviewers
   - Process definition
-- Define KPIs and culture for the whole AML & CTF domain engineering team
+- Defined KPIs and culture for the whole AML & CTF domain engineering team
 ```
 </div>
 
@@ -96,13 +81,13 @@ June 2022 - December 2022
 - Agile Coach
 - Lead Backend Architect
   - Evolutionary Architectures
-  - Tech debt assesment
+  - Tech debt assessment
   - Standard and Best Practices definition
   - ADR & Design Documents
   - Cloud Readiness
 - Trainer, Speaker
 - Smart Working stakeholder
-- Bar Raiser on hiring process
+- Acted as Bar Raiser on hiring process
 ```
 </div>
 
@@ -110,15 +95,15 @@ June 2022 - December 2022
 ### <b>Backend Lead Engineer</b> @ Returnly
 <i>March 2018 - June 2019</i>
 ```
-- Build a new team and office (+11 people)
+- Built a new team and office (+11 people)
 - Backend Tech Lead
   - Virtual wallet payment gateway API Lead Engineer
   - Stripe & Plaid integration for customer data
-  - Maintain some docker artifacts (DB, CI Builder)
-  - Maintain some legacy services / batch ETLs
+  - Maintained docker artifacts (DB, CI Builder)
+  - Maintained legacy services / batch ETLs
 - Big Data / MLU Engineer
-  - Onboard data scientists into the new hub (+3)
-  - Maintain ETL / Pipelines to export to Datavault schemas 
+  - Onboarded data scientists into the new hub (+3)
+  - Maintained ETL / Pipelines to export to Datavault schemas 
 ```
 </div>
 
@@ -126,45 +111,14 @@ June 2022 - December 2022
 ### <b>CTO</b> @ Finalbion
 <i>March 2016 - March 2018</i>
 ```
-- Build IT Department
+- Built IT Department
   - New partners, tools, suites, licenses, hardware...
-  - Adopt new accounting ERP (Sage X3)
-  - Understand and evolve off the shelf factoring solution (Codix)
-  - Build reporting tools (internally developed)
-  - Grow the department (+4 internal, +3 Outsourced)
+  - Adopted new accounting ERP (Sage X3)
+  - Understood and evolved off the shelf factoring solution (Codix)
+  - Built reporting tools (internally developed)
+  - Grew the department (+4 internal, +3 Outsourced)
 - Cloud Migration
 - Technology Evangelist
-```
-</div>
-
-<div class="notice" markdown="1">
-### <b>Senior Project Manager</b> @ Midas
-<i>January 2009 - March 2016</i>
-```
-- IT Manager (6 Months)
-  - Define budget, year plan & Team Goals
-- Senior Product|Project Manager (EMEA)
-  - ERP (Dynamics)
-  - CRM (Outsourced, custom made)
-  - BI (Qlikview > Cognos > Business Objects)
-- IAM & SSO: 15k Identities @ 15 Countries
-- EDI: 5 Group Companies @ 15 Countries
-- Lead Engineer
-- Datacenter manager & SRE | Ops
-```
-</div>
-
-<div class="notice" markdown="1">
-### <b>Architect | Coach</b> @ Hiberus Tecnología
-<i>December 2015 - March 2016</i>
-```
-- Build QA Department
-  - CI Culture, Pipelines (jenkins)
-  - Metrics (Sonarqube)
-  - Hiring (interns)
-- OTA Coach & Architect
-  - Lead & Train junior managers
-  - Define cloud ready architecture
 ```
 </div>
 
@@ -172,6 +126,8 @@ June 2022 - December 2022
 ### Previous Experience
 <i>2001 - 2009</i>
 ```
+- 2015: Hiberus Tech.: Architect & Coach
+- 2009-2016: Midas: Sr IT Project Manager
 - 2005-2006 & 2008-2009: Fi2Net: Senior J2EE Engineer & J2EE Lead Engineer
 - 2006-2008: Comercial Losan: IT Manager, Project Manager (CRM, SAP ERP)
 - 2005-2007: Freelancer Java Architect
@@ -192,17 +148,6 @@ June 2022 - December 2022
 ```
 </div>
 
-<div class="notice--info" markdown="1">
-### Education Masters Degree 
-<b>Universidad Alfonso X</b> <i>(2018)</i> 
-```
-- Pedagogy
-- Classroom management
-- Coaching
-- Psychology
-```
-</div>
-
 <div class="notice--primary" markdown="1">
 ### Computer Science Grade
 <b>IES Santiago Hernández</b> <i>(2001-2003)</i> 
@@ -217,9 +162,8 @@ June 2022 - December 2022
 
 <div class="notice" markdown="1">
 ### Business University Degree
-<b>Universidad de Zaragoza</b> <i>(1997-not finished)</i> 
+<b>Universidad de Zaragoza</b> <i>(1997–2001, 3/5 years completed)</i> 
 ```
-(Not finished)
 - Accounting
 - Micro / Macro economics
 - Math, Statistics
@@ -230,6 +174,7 @@ June 2022 - December 2022
 <div class="notice" markdown="1">
 ### Other Training
 ```
+-2018: Universidad Alfonso X | **Education Masters Degree**
 - 2007: Oracle 10 Administration I and II
 - 2007: Oracle 10 Performance Tunning
 - 2005: Linux Network Administration I and II
