@@ -103,22 +103,22 @@ company. I am an agile enthusiast and I love high performing teams.
 - **Technical Evangelism**: I serve as an ambassador for the company's engineering culture. By speaking at international meetups and seminars, I drive brand awareness that aids in talent acquisition and keeps our teams connected to the latest industry standards and innovations.
 
 ## How do I work?
-- People-First Leadership: Radical Candor & Growth
+### People-First Leadership: Radical Candor & Growth
 I move beyond traditional management by practicing Radical Candor—combining personal care with the ability to challenge directly. My best practice is to build "Self-Correcting Teams" through:
   - Psychological Safety: Establishing an environment where failure is treated as a data point, enabling high-velocity experimentation.
   - Sponsorship over Mentorship: Actively identifying opportunities for team members to stretch their capabilities and gain visibility, rather than just giving advice.
 
-- The "Engineering Craftsmanship" Standard
+### The "Engineering Craftsmanship" Standard
 Leadership is about setting the bar for quality without becoming a bottleneck. I implement:
   - Evolutionary Architecture: Using ADRs (Architecture Decision Records) and RFCs to democratize technical decisions while ensuring long-term maintainability.
   - DDD as a Common Language: Utilizing Domain-Driven Design to bridge the gap between business requirements and code, ensuring the technical stack reflects the business reality.
 
-- Change Enablement through "Culture-as-Code"
+### Change Enablement through "Culture-as-Code"
 Change shouldn't be top-down; it should be integrated into the workflow.
   - Continuous Feedback Loops: Evaluating processes (DORA metrics, developer experience) as regularly as we evaluate the tech stack.
--   Transparency by Default: Ensuring engineers understand the "Why" behind the roadmap, transforming them from "ticket-takers" into product owners.
+  - Transparency by Default: Ensuring engineers understand the "Why" behind the roadmap, transforming them from "ticket-takers" into product owners.
 
-- Knowledge Advocacy (The Multiplier Effect)
+### Knowledge Advocacy (The Multiplier Effect)
 I believe a leader's value is measured by the growth of those around them.
   - Knowledge Liquidity: Implementing internal "Brown Bag" sessions and open-source-style internal contribution models to break down silos.
   - Public Contribution: Encouraging engineers to speak at meetups and write technical blogs, which serves as both a development tool and a powerful hiring magnet for the company.
