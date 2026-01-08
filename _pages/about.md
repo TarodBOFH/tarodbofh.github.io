@@ -62,13 +62,13 @@ jekyll
 
 ## Intro 
 
-The Spark: My journey in technology began at eight years old with an Amstrad CPC 464. What my father thought was a manual for " ["40 Educational Games for the Amstrad"](http://www.cpcwiki.eu/index.php/40_Educational_Games_for_the_Amstrad_CPC464)" became my first gateway into programming. That early curiosity defined my career: a drive to break things to understand them and a lack of fear when facing complex systems.
+**The Spark:** My journey in technology began at eight years old with an Amstrad CPC 464. What my father thought was a manual for the computer (["40 Educational Games for the Amstrad"](http://www.cpcwiki.eu/index.php/40_Educational_Games_for_the_Amstrad_CPC464)") became my first gateway into programming. That early curiosity defined my career: a drive to break things to understand them and a lack of fear when facing complex systems.
 
-Bridging the Gap: Today, that curiosity has evolved into an analytical leadership style. I specialize in bridging the gap between ambitious product roadmaps and high-level engineering execution. I am a technical leader who understands the ramifications of a decision across the entire stack, ensuring we solve the right problems with the right technology at the right time.
+**Bridging the Gap:** Today, that curiosity has evolved into an analytical leadership style. I specialize in bridging the gap between ambitious product roadmaps and high-level engineering execution. I am a technical leader who understands the ramifications of a decision across the entire stack, ensuring we solve the right problems with the right technology at the right time.
 
-Giving Back: I believe leadership is an act of service. Having "packed my backpack" with two decades of experiences and failures, I’ve dedicated the last five years to sharing those lessons. Whether it’s through mentoring at Master FPlaB or speaking at high schools via Fundación ExE, I am committed to the idea that failure is merely a data point for future success. This same philosophy drives how I coach internal engineering teams—fostering a culture of psychological safety where "Bar Raising" is the standard.
+**Giving Back:** I believe leadership is an act of service. Having "packed my backpack" with two decades of experiences and failures, I’ve dedicated the last five years to sharing those lessons. Whether it’s through mentoring at Master FPlaB or speaking at high schools via Fundación ExE, I am committed to the idea that failure is merely a data point for future success. This same philosophy drives how I coach internal engineering teams—fostering a culture of psychological safety where "Bar Raising" is the standard.
 
-My Philosophy: People First. I am a firm believer in the "Who first, then what" principle. I look for diverse environments where transparency, ownership, and social responsibility aren't just posters on a wall but daily practices.
+**My Philosophy:** People First. I am a firm believer in the "Who first, then what" principle. I look for diverse environments where transparency, ownership, and social responsibility aren't just posters on a wall but daily practices.
 
 I view engineering as a form of craftsmanship. It requires a balance of rigorous discipline and creative flexibility. My goal as a leader is to build high-performing teams that embrace continuous improvement and knowledge sharing as a competitive advantage. I don’t just build software; I build the teams that build the software.
 
