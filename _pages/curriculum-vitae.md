@@ -124,7 +124,7 @@ January 2023 - April 2024
 
 <div class="notice" markdown="1">
 ### Previous Experience
-<i>2001 - 2009</i>
+<i>2001 - 2015</i>
 ```
 - 2015: Hiberus Tech.: Architect & Coach
 - 2009-2016: Midas: Sr IT Project Manager
