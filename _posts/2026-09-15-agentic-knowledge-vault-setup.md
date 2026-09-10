@@ -118,5 +118,7 @@ Sometimes the best systems are the ones that get out of your way and let you foc
 ## Resource Examples / Prompts
 
 [Context / Knowledge Vault README.md](/assets/agentic-knowledge-vault-setup/README.md)
+
 [Shared Preferences Prompt](/assets/agentic-knowledge-vault-setup/PREFERENCES.md)
+
 [Agents / Collaboration Prompt](/assets/agentic-knowledge-vault-setup/AGENTS.md)
