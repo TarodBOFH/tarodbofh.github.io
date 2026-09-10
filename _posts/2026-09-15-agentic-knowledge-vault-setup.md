@@ -1,8 +1,7 @@
 ---
 id: 202609101500
 project: setup-agentic-software-director-workspace
-status: draft
-created: 2026-09-10
+date: 2026-09-10
 url:
 # --- Jekyll / minimal-mistakes front matter below: copied as-is at publish time ---
 
